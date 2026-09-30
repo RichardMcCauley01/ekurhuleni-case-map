@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://richardmccauley01.github.io/ekurhuleni-case-map/sitemap.xml

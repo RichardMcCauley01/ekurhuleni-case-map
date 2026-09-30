@@ -1,0 +1,262 @@
+{
+ "media": [
+  {
+   "id": "m-saps",
+   "type": "official document",
+   "title": "SAPS statement: warning and dedicated task team",
+   "outlet": "SAPS via gov.za",
+   "date": "2026-09-14",
+   "url": "https://www.gov.za/news/media-statements/police-intensify-investigations-four-bodies-are-found-kempton-park-14-sep",
+   "description": "Official police statement of 14 Sept (four bodies in the Kempton Park area; public warning; task team; MySAPS tip line).",
+   "events": [
+    "inv-saps-warning"
+   ]
+  },
+  {
+   "id": "m-sanews",
+   "type": "official document",
+   "title": "SAnews: Gracious Nkomo identified",
+   "outlet": "SAnews (GCIS)",
+   "date": "2026-09-18",
+   "url": "https://www.sanews.gov.za/south-africa/third-ekurhuleni-murder-victim-identified",
+   "description": "Government news agency report on the SAPS identification statement.",
+   "events": [
+    "nkomo-id"
+   ]
+  },
+  {
+   "id": "m-address",
+   "type": "official document / transcript",
+   "title": "President Ramaphosa's address to the nation (full text)",
+   "outlet": "The Presidency",
+   "date": "2026-09-29",
+   "url": "https://thepresidency.gov.za/address-nation-president-cyril-ramaphosa-killings-women-ekurhuleni-and-national-response-gender",
+   "description": "Full text of the 29 Sept address: case count, national-level investigation, measures.",
+   "events": [
+    "inv-address"
+   ]
+  },
+  {
+   "id": "m-newsletter",
+   "type": "official document",
+   "title": "From the desk of the President, 28 Sept",
+   "outlet": "The Presidency",
+   "date": "2026-09-28",
+   "url": "https://www.thepresidency.gov.za/node/10422",
+   "description": "Weekly presidential newsletter referring to violence against women.",
+   "events": [
+    "inv-newsletter"
+   ]
+  },
+  {
+   "id": "m-parl",
+   "type": "parliamentary briefing coverage",
+   "title": "Parliament briefing: Senthumule and Mthombeni",
+   "outlet": "The South African",
+   "date": "2026-09-24",
+   "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-forensics-link-persons-of-interest-to-victims/",
+   "description": "Coverage of the 23 Sept Portfolio Committee on Police briefing.",
+   "events": [
+    "inv-parliament"
+   ]
+  },
+  {
+   "id": "m-parl2",
+   "type": "parliamentary briefing coverage",
+   "title": "Senthumule assures MPs of police progress",
+   "outlet": "eKayNews",
+   "date": "2026-09-24",
+   "url": "https://ekaynews.co.za/ekurhuleni-murders-senthumule-assures-mps-of-police-progress/",
+   "description": "eKayNews coverage of the same briefing.",
+   "events": [
+    "inv-parliament"
+   ]
+  },
+  {
+   "id": "m-enca-video",
+   "type": "video report",
+   "title": "eNCA: Specialised team probing Ekurhuleni murders",
+   "outlet": "eNCA",
+   "date": "2026-09-30",
+   "url": "https://www.enca.com/news-top-stories-videos/specialised-team-probing-ekurhuleni-murders",
+   "description": "TV news report on the national-level investigation team (30 Sept).",
+   "events": [
+    "inv-address"
+   ]
+  },
+  {
+   "id": "m-sabc-poi",
+   "type": "video / broadcast coverage",
+   "title": "SABC: three persons of interest questioned",
+   "outlet": "SABC News",
+   "date": "2026-09-20",
+   "url": "https://www.sabcnews.com/sabcnews/three-persons-of-interest-questioned-over-east-rand-murders/",
+   "description": "Broadcast coverage of the 20 Sept briefing.",
+   "events": [
+    "inv-poi"
+   ]
+  },
+  {
+   "id": "m-sabc-0926",
+   "type": "video / broadcast coverage",
+   "title": "SABC: Gauteng police cannot rule out serial killer",
+   "outlet": "SABC News",
+   "date": "2026-09-26",
+   "url": "https://www.sabcnews.com/sabcnews/gauteng-police-cannot-rule-out-serial-killer-in-ekurhuleni/",
+   "description": "Commissioner Mthombeni at the Tembisa scene (26 Sept).",
+   "events": [
+    "inv-mthombeni"
+   ]
+  },
+  {
+   "id": "m-bbc-explainer",
+   "type": "explainer",
+   "title": "BBC: What we know after bodies of 12 women found",
+   "outlet": "BBC News",
+   "date": "2026-09-28",
+   "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+   "description": "Case-by-case explainer (28 Sept). Contains photos of some victims supplied by families.",
+   "events": [
+    "mahlangu-found",
+    "nhlanzi-shot"
+   ]
+  },
+  {
+   "id": "m-dm-explainer",
+   "type": "explainer",
+   "title": "Daily Maverick: here's what we know about the killings",
+   "outlet": "Daily Maverick",
+   "date": "2026-09-28",
+   "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+   "description": "Detailed explainer with similarities and differences (28 Sept).",
+   "events": [
+    "inv-dm-analysis"
+   ]
+  },
+  {
+   "id": "m-tsa-explainer",
+   "type": "explainer",
+   "title": "The South African: what we know about all 10 women",
+   "outlet": "The South African",
+   "date": "2026-09-26",
+   "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-what-we-know-about-all-10-women/",
+   "description": "Profiles of the first ten women (26 Sept).",
+   "events": []
+  },
+  {
+   "id": "m-dm-analysis",
+   "type": "analysis",
+   "title": "Daily Maverick: Ekurhuleni murders expose SA's femicide failures",
+   "outlet": "Daily Maverick",
+   "date": "2026-09-27",
+   "url": "https://www.dailymaverick.co.za/article/2026-09-27-the-war-on-women-ekurhuleni-murders-highlight-sas-femicide-crisis/",
+   "description": "Analysis including Labuschagne and SAPS comments (27 Sept).",
+   "events": [
+    "inv-labuschagne",
+    "inv-mosikili"
+   ]
+  },
+  {
+   "id": "m-st-expert",
+   "type": "expert interview",
+   "title": "Sunday Times: treat as possible serial murders until proven otherwise",
+   "outlet": "Sunday Times / TimesLIVE",
+   "date": "2026-09-16",
+   "url": "https://www.sundaytimes.timeslive.co.za/news/2026-09-16-treat-these-as-possible-serial-murders-until-proven-otherwise-forensic-psychologist-on-ekurhuleni-womens-deaths/",
+   "description": "Interview with Prof Gérard Labuschagne on SAPS serial-murder investigation policy.",
+   "events": [
+    "inv-labuschagne"
+   ]
+  },
+  {
+   "id": "m-kekana",
+   "type": "tribute / profile",
+   "title": "Daily Maverick: a brother's search for Itumeleng Kekana",
+   "outlet": "Daily Maverick",
+   "date": "2026-09-17",
+   "url": "https://www.dailymaverick.co.za/article/2026-09-17-brothers-agonising-search-for-ekurhuleni-killings-victim-itumeleng-kekana/",
+   "description": "Family account of her disappearance and the search. Contains a photo of her (not embedded here).",
+   "events": [
+    "kekana-missing",
+    "kekana-found"
+   ]
+  },
+  {
+   "id": "m-mjobo",
+   "type": "tribute / profile",
+   "title": "eNCA: Nomfesane Mjobo's family and friends honour her memory",
+   "outlet": "eNCA",
+   "date": "2026-09-28",
+   "url": "https://www.enca.com/news-top-stories/ekurhuleni-murders-nomfesane-mjobos-family-friends-honour-her-memory",
+   "description": "Vigil coverage. May contain photos (not embedded here).",
+   "events": [
+    "mjobo-vigil"
+   ]
+  },
+  {
+   "id": "m-runner",
+   "type": "tribute / profile",
+   "title": "BBC: body of missing runner found",
+   "outlet": "BBC News",
+   "date": "2026-09-14",
+   "url": "https://www.bbc.co.uk/news/articles/cxyvzggzd5jgo",
+   "description": "Report on Elizabeth Moselakgomo's disappearance and discovery.",
+   "events": [
+    "moselakgomo-found"
+   ]
+  },
+  {
+   "id": "m-court",
+   "type": "court coverage",
+   "title": "TimesLIVE: accused to remain in custody as bail date postponed",
+   "outlet": "TimesLIVE",
+   "date": "2026-09-29",
+   "url": "https://www.timeslive.co.za/news/south-africa/2026-09-29-ekurhuleni-murder-accused-to-remain-in-custody-as-bail-date-postponed/",
+   "description": "29 Sept court appearance in the Nxumalo case. Note: this report names the accused; this site does not.",
+   "events": [
+    "nxumalo-court"
+   ]
+  },
+  {
+   "id": "m-cnn",
+   "type": "international coverage",
+   "title": "CNN: 'Women are terrified'",
+   "outlet": "CNN",
+   "date": "2026-09-18",
+   "url": "https://www.cnn.com/2026/09/18/africa/south-africa-women-deaths-femicide-intl",
+   "description": "International coverage including the reaction to police safety advice.",
+   "events": [
+    "inv-backlash"
+   ]
+  },
+  {
+   "id": "m-wapo",
+   "type": "international coverage",
+   "title": "Washington Post: nine bodies raise fears of serial murder, femicide",
+   "outlet": "The Washington Post",
+   "date": "2026-09-18",
+   "url": "https://www.washingtonpost.com/world/2026/09/18/nine-bodies-found-south-africa-raise-fears-serial-murder-femicide/",
+   "description": "International coverage (18 Sept). Read via search snippet only (paywall).",
+   "events": []
+  },
+  {
+   "id": "m-boundary",
+   "type": "dataset",
+   "title": "Ekurhuleni municipal boundary (geoBoundaries)",
+   "outlet": "geoBoundaries (OCHA ROSEA / Municipal Demarcation Board)",
+   "date": "2020 boundaries, accessed 2026-09-30",
+   "url": "https://www.geoboundaries.org/api/current/gbOpen/ZAF/ADM2/",
+   "description": "Public boundary data used for the map outline (simplified). CC BY 3.0 IGO.",
+   "events": []
+  }
+ ],
+ "notPublic": [
+  "Post-mortem results for most victims: only preliminary causes reported in the media are shown here, with attribution.",
+  "What the forensic evidence links: police said on 23 Sept that forensics link some persons of interest to some victims, but did not say which people, which victims, or what evidence.",
+  "Identities of persons of interest: not released by police, and intentionally not named on this site.",
+  "The identities of two women (Clayville, 7 Sept; Springs, 27 Sept) and the woman found in Soweto (20 Sept), as of the latest reports found.",
+  "Exact locations where bodies were found: map pins are placed at suburb or road level only.",
+  "Charge sheets and court documents: not publicly posted. Court information comes from news reports.",
+  "An official, consolidated SAPS case list with dates and places: the list here is compiled from several statements and reports."
+ ]
+}

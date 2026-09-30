@@ -1,0 +1,1121 @@
+{
+ "meta": {
+  "generated": "2026-09-30",
+  "asOf": "2026-09-30",
+  "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
+  "eventCount": 50,
+  "caseCount": 13,
+  "distance": {
+   "center": "Kempton Park centre (approx. -26.096, 28.234)",
+   "within10": 7,
+   "within20": 9,
+   "total": 12,
+   "farthest": {
+    "name": "Unidentified woman (Springs)",
+    "km": 32.0
+   },
+   "note": "Straight-line distances between approximate, area-level pins; they are indicative only (±2-3 km) and are not evidence of any link."
+  },
+  "intervals": [
+   {
+    "days": 19,
+    "fromId": "mahlangu",
+    "toId": "kekana",
+    "fromDate": "2026-07-15",
+    "toDate": "2026-08-03",
+    "approximate": false
+   },
+   {
+    "days": 23,
+    "fromId": "kekana",
+    "toId": "mjobo",
+    "fromDate": "2026-08-03",
+    "toDate": "2026-08-26",
+    "approximate": false
+   },
+   {
+    "days": 12,
+    "fromId": "mjobo",
+    "toId": "clayville",
+    "fromDate": "2026-08-26",
+    "toDate": "2026-09-07",
+    "approximate": false
+   },
+   {
+    "days": 3,
+    "fromId": "clayville",
+    "toId": "nkomo",
+    "fromDate": "2026-09-07",
+    "toDate": "2026-09-10",
+    "approximate": false
+   },
+   {
+    "days": 2,
+    "fromId": "nkomo",
+    "toId": "moselakgomo",
+    "fromDate": "2026-09-10",
+    "toDate": "2026-09-12",
+    "approximate": false
+   },
+   {
+    "days": 2,
+    "fromId": "moselakgomo",
+    "toId": "mathebula",
+    "fromDate": "2026-09-12",
+    "toDate": "2026-09-14",
+    "approximate": false
+   },
+   {
+    "days": 1,
+    "fromId": "mathebula",
+    "toId": "motapane",
+    "fromDate": "2026-09-14",
+    "toDate": "2026-09-15",
+    "approximate": true
+   },
+   {
+    "days": 2,
+    "fromId": "motapane",
+    "toId": "ntimba",
+    "fromDate": "2026-09-15",
+    "toDate": "2026-09-17",
+    "approximate": true
+   },
+   {
+    "days": 9,
+    "fromId": "ntimba",
+    "toId": "nxumalo",
+    "fromDate": "2026-09-17",
+    "toDate": "2026-09-26",
+    "approximate": false
+   },
+   {
+    "days": 1,
+    "fromId": "nxumalo",
+    "toId": "springs",
+    "fromDate": "2026-09-26",
+    "toDate": "2026-09-27",
+    "approximate": true
+   },
+   {
+    "days": 1,
+    "hours": 17.8,
+    "fromId": "springs",
+    "toId": "nhlanzi",
+    "fromDate": "2026-09-27",
+    "toDate": "2026-09-28",
+    "approximate": true
+   }
+  ]
+ },
+ "cases": [
+  {
+   "id": "mahlangu",
+   "num": 1,
+   "name": "Busisiwe Mahlangu",
+   "age": "37",
+   "group": "arrest",
+   "linkStatus": "Arrest made: her partner (per police). Police say he has not been linked to the other deaths.",
+   "statusShort": "arrest made (partner; not linked to other deaths per police)",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-07-15",
+    "precision": "day",
+    "place": "Open field (veld) near the R21, Kempton Park",
+    "lat": -26.105,
+    "lng": 28.238,
+    "pinPrecision": "road/area",
+    "placeNote": "Pin placed in Kempton Park near the R21; the exact spot was not reported. One map published by The Star places this case in Pomona (Kempton Park).",
+    "kmFromKemptonPark": 1.0
+   },
+   "circumstances": "Found naked with her hands bound with cable ties (as reported by BBC and IOL). She was the first of the women whose deaths are now part of the Ekurhuleni investigation.",
+   "legal": "Her partner (boyfriend) was arrested two days later, on 17 July 2026, and remains in custody (BBC, Presidency). The accused has not been named here; he is presumed innocent. No court date was found in public reporting.",
+   "court": [],
+   "conflicts": [],
+   "sources": [
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "presidency_0929",
+     "title": "Address to the nation by President Cyril Ramaphosa on the killings of women in Ekurhuleni and the national response to gender-based violence",
+     "url": "https://thepresidency.gov.za/address-nation-president-cyril-ramaphosa-killings-women-ekurhuleni-and-national-response-gender",
+     "outlet": "The Presidency",
+     "date": "2026-09-29",
+     "access": "read"
+    },
+    {
+     "key": "iol_0928",
+     "title": "Ekurhuleni women's deaths: Latest shooting not linked as cemetery suspect arrested",
+     "url": "https://iol.co.za/news/crime-and-courts/2026-09-28-ekurhuleni-womens-deaths-latest-shooting-not-linked-as-cemetery-suspect-arrested/",
+     "outlet": "IOL",
+     "date": "2026-09-28",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "mahlangu-found",
+    "mahlangu-arrest"
+   ]
+  },
+  {
+   "id": "kekana",
+   "num": 2,
+   "name": "Itumeleng Kekana",
+   "age": "32",
+   "group": "taskteam",
+   "linkStatus": "Under task team investigation. No arrest reported.",
+   "statusShort": "under task team investigation; no arrest",
+   "lastSeen": {
+    "date": "2026-07-17",
+    "precision": "approximate",
+    "time": "≈19:00",
+    "place": "Left home in Kempton Park in the evening, telling a neighbour she was going to see someone (per her brother, via Daily Maverick)",
+    "lat": null,
+    "lng": null
+   },
+   "found": {
+    "date": "2026-08-03",
+    "precision": "day",
+    "place": "Bushes beside Great North Road, Pomona (Kempton Park), near the Max informal settlement",
+    "lat": -26.104,
+    "lng": 28.26,
+    "pinPrecision": "road/area",
+    "placeNote": "Found by a man on his way to work.",
+    "kmFromKemptonPark": 3.0
+   },
+   "circumstances": "Kempton Park police said her decomposing body was found in bushes next to the road with multiple stab wounds (Daily Maverick). Originally from Mmakwane Village, QwaQwa (Free State); she sold beauty products in Kempton Park. She was buried in QwaQwa on 22 August and leaves a 14-year-old daughter.",
+   "legal": "No arrest reported. Her family has asked investigators for CCTV footage from a camera near the scene (Daily Maverick).",
+   "court": [],
+   "conflicts": [
+    "BBC describes her as found 'on a bridge', badly bruised and partially clothed. Daily Maverick (quoting police) says she was found in bushes next to Great North Road."
+   ],
+   "sources": [
+    {
+     "key": "dm_kekana",
+     "title": "Brother's agonising search for Ekurhuleni killings victim Itumeleng Kekana",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-17-brothers-agonising-search-for-ekurhuleni-killings-victim-itumeleng-kekana/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-17",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "tsa_0926",
+     "title": "Ekurhuleni murders: What we know about all 10 women",
+     "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-what-we-know-about-all-10-women/",
+     "outlet": "The South African",
+     "date": "2026-09-26",
+     "access": "read"
+    },
+    {
+     "key": "news24_timeline",
+     "title": "TIMELINE | East Rand killings: series of women's bodies found in Gauteng",
+     "url": "https://www.news24.com/southafrica/news/live-east-rand-killings-horror-takes-hold-as-series-of-womens-bodies-found-in-gauteng-20260918-0382",
+     "outlet": "News24",
+     "date": "2026-09-18",
+     "access": "snippet"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    }
+   ],
+   "lastSeenToFound": {
+    "days": 17
+   },
+   "events": [
+    "kekana-missing",
+    "kekana-found",
+    "kekana-burial"
+   ]
+  },
+  {
+   "id": "mjobo",
+   "num": 3,
+   "name": "Nomfesane Mjobo",
+   "age": null,
+   "group": "taskteam",
+   "linkStatus": "Under task team investigation. No arrest reported.",
+   "statusShort": "under task team investigation; no arrest",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-08-26",
+    "precision": "day",
+    "place": "Kempton Park area (exact place not publicly detailed)",
+    "lat": -26.096,
+    "lng": 28.234,
+    "pinPrecision": "town-level only",
+    "placeNote": "Pin shows Kempton Park generally; the exact location was not reported.",
+    "kmFromKemptonPark": 0.0
+   },
+   "circumstances": "Few details have been released publicly. Family and friends held a candlelight vigil at the site where she was found (eNCA, 28 Sept).",
+   "legal": "No arrest reported.",
+   "court": [],
+   "conflicts": [
+    "IOL (21 Sept) and The Star mention a 32-year-old woman found partially clothed near the R21 on 24 August. It is unclear whether that refers to this case. BBC and the SAPS list give 26 August."
+   ],
+   "sources": [
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "enca_mjobo",
+     "title": "Nomfesane Mjobo's family, friends honour her memory",
+     "url": "https://www.enca.com/news-top-stories/ekurhuleni-murders-nomfesane-mjobos-family-friends-honour-her-memory",
+     "outlet": "eNCA",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "presidency_0929",
+     "title": "Address to the nation by President Cyril Ramaphosa on the killings of women in Ekurhuleni and the national response to gender-based violence",
+     "url": "https://thepresidency.gov.za/address-nation-president-cyril-ramaphosa-killings-women-ekurhuleni-and-national-response-gender",
+     "outlet": "The Presidency",
+     "date": "2026-09-29",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "mjobo-found",
+    "mjobo-vigil"
+   ]
+  },
+  {
+   "id": "clayville",
+   "num": 4,
+   "name": "Unidentified woman (Clayville)",
+   "age": "late 20s (police estimate)",
+   "group": "taskteam",
+   "linkStatus": "Added to the central task team probe on 15 September. Unidentified. No arrest reported.",
+   "statusShort": "unidentified; under task team investigation; no arrest",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-09-07",
+    "precision": "day",
+    "place": "In a river at Clayville, near the Mall of Tembisa (listed by SAPS as 'Clayville River, Olifantsfontein')",
+    "lat": -25.958,
+    "lng": 28.222,
+    "pinPrecision": "suburb",
+    "placeNote": "Pin at Clayville suburb level.",
+    "kmFromKemptonPark": 15.0
+   },
+   "circumstances": "Found in the water wearing only underwear. Police later appealed for help to trace her family and followed up on a possible family address (21-22 Sept).",
+   "legal": "No arrest reported. Remains unidentified as of the latest reports found.",
+   "court": [],
+   "conflicts": [
+    "BBC spells the area 'Olifantsfontain'. Some early reports did not include this case in the count until it was added on 15 Sept."
+   ],
+   "sources": [
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "national_0916",
+     "title": "8 women dead in Ekurhuleni: South Africa demands answers as police hunt expands",
+     "url": "https://thenational.co.za/news/2026-09-16-8-women-dead-police-offer-r400-000-reward-as-south-africa-mourns/",
+     "outlet": "The National",
+     "date": "2026-09-16",
+     "access": "read"
+    },
+    {
+     "key": "star_0922",
+     "title": "Police search for family of unidentified woman amid Ekurhuleni deaths",
+     "url": "https://thestar.co.za/news/crime-and-courts/2026-09-22-police-search-for-family-of-unidentified-woman-amid-ekurhuleni-deaths/",
+     "outlet": "The Star",
+     "date": "2026-09-22",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "st_0916",
+     "title": "Treat these as possible serial murders until proven otherwise: forensic psychologist on Ekurhuleni women's deaths",
+     "url": "https://www.sundaytimes.timeslive.co.za/news/2026-09-16-treat-these-as-possible-serial-murders-until-proven-otherwise-forensic-psychologist-on-ekurhuleni-womens-deaths/",
+     "outlet": "Sunday Times / TimesLIVE",
+     "date": "2026-09-16",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "clayville-found",
+    "clayville-added",
+    "clayville-family"
+   ]
+  },
+  {
+   "id": "nkomo",
+   "num": 5,
+   "name": "Gracious Nkomo",
+   "age": "28",
+   "group": "taskteam",
+   "linkStatus": "Under task team investigation. No arrest reported.",
+   "statusShort": "under task team investigation; no arrest",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-09-10",
+    "precision": "day",
+    "place": "Near the R21, Kempton Park",
+    "lat": -26.1,
+    "lng": 28.24,
+    "pinPrecision": "road/area",
+    "placeNote": "Marker offset slightly from case 1 so the two do not overlap; the exact spots were not reported.",
+    "kmFromKemptonPark": 1.0
+   },
+   "circumstances": "Found partially clothed; police described the body as decomposed. Identified by her family at the Germiston mortuary on 17 September (SAPS via SAnews). Born in Zimbabwe; Daily Maverick reports she is the only publicly identified foreign national among the victims.",
+   "legal": "No arrest reported.",
+   "court": [],
+   "conflicts": [
+    "One outlet (joburgetc) and a map in The Star appear to confuse her with the Dawn Park case (Jabulile Ntimba). This site follows SAPS/SAnews, BBC and Daily Maverick (R21, Kempton Park)."
+   ],
+   "sources": [
+    {
+     "key": "sanews_nkomo",
+     "title": "Third Ekurhuleni murder victim identified",
+     "url": "https://www.sanews.gov.za/south-africa/third-ekurhuleni-murder-victim-identified",
+     "outlet": "SAnews (GCIS)",
+     "date": "2026-09-18",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "national_0918",
+     "title": "Gracious Nkomo is fourth woman identified in Ekurhuleni murder investigation",
+     "url": "https://thenational.co.za/news/2026-09-18-gracious-nkomo-is-fourth-woman-identified-in-ekurhuleni-murder-investigation/",
+     "outlet": "The National",
+     "date": "2026-09-18",
+     "access": "snippet"
+    },
+    {
+     "key": "national_0916",
+     "title": "8 women dead in Ekurhuleni: South Africa demands answers as police hunt expands",
+     "url": "https://thenational.co.za/news/2026-09-16-8-women-dead-police-offer-r400-000-reward-as-south-africa-mourns/",
+     "outlet": "The National",
+     "date": "2026-09-16",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "nkomo-found",
+    "nkomo-id"
+   ]
+  },
+  {
+   "id": "moselakgomo",
+   "num": 6,
+   "name": "Elizabeth 'Tsontso' Moselakgomo",
+   "age": "38",
+   "group": "taskteam",
+   "linkStatus": "Under task team investigation. No arrest reported.",
+   "statusShort": "under task team investigation; no arrest",
+   "lastSeen": {
+    "date": "2026-09-09",
+    "precision": "day",
+    "place": "Left home for an afternoon/evening run (Kempton Park area; her home suburb is reported inconsistently, so it is not mapped)",
+    "lat": null,
+    "lng": null
+   },
+   "found": {
+    "date": "2026-09-12",
+    "precision": "day",
+    "place": "Behind a hotel in Rhodesfield, Kempton Park",
+    "lat": -26.123,
+    "lng": 28.229,
+    "pinPrecision": "suburb",
+    "placeNote": "Found on the evening/night of Saturday 12 September.",
+    "kmFromKemptonPark": 3.0
+   },
+   "circumstances": "A runner who did not return from her run; her eight-year-old daughter raised the alarm. Found badly bruised and partially clothed. Her family identified her at the Germiston mortuary on 14 September. She was buried in Mpumalanga around 19-20 September. Her disappearance drew wide public attention.",
+   "legal": "No arrest reported.",
+   "court": [],
+   "conflicts": [
+    "Her home suburb is given as Roseville (News24) and Rhodesfield (The South African)."
+   ],
+   "sources": [
+    {
+     "key": "bbc_runner",
+     "title": "Body of missing runner found in South Africa",
+     "url": "https://www.bbc.co.uk/news/articles/cxyvzggzd5jgo",
+     "outlet": "BBC News",
+     "date": "2026-09-14",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "saps_0914",
+     "title": "Police intensify investigations as four bodies are found in Kempton Park (SAPS media statement)",
+     "url": "https://www.gov.za/news/media-statements/police-intensify-investigations-four-bodies-are-found-kempton-park-14-sep",
+     "outlet": "SAPS via gov.za",
+     "date": "2026-09-14",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "tsa_0926",
+     "title": "Ekurhuleni murders: What we know about all 10 women",
+     "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-what-we-know-about-all-10-women/",
+     "outlet": "The South African",
+     "date": "2026-09-26",
+     "access": "read"
+    },
+    {
+     "key": "news24_timeline",
+     "title": "TIMELINE | East Rand killings: series of women's bodies found in Gauteng",
+     "url": "https://www.news24.com/southafrica/news/live-east-rand-killings-horror-takes-hold-as-series-of-womens-bodies-found-in-gauteng-20260918-0382",
+     "outlet": "News24",
+     "date": "2026-09-18",
+     "access": "snippet"
+    }
+   ],
+   "lastSeenToFound": {
+    "days": 3
+   },
+   "events": [
+    "moselakgomo-missing",
+    "moselakgomo-found",
+    "moselakgomo-id",
+    "moselakgomo-burial"
+   ]
+  },
+  {
+   "id": "mathebula",
+   "num": 7,
+   "name": "Vutomi Mathebula",
+   "age": "28",
+   "group": "taskteam",
+   "linkStatus": "Under task team investigation. No arrest reported.",
+   "statusShort": "under task team investigation; no arrest",
+   "lastSeen": {
+    "date": "2026-03-22",
+    "precision": "day",
+    "place": "Told her family she was going shopping at Dragon City, Johannesburg (her stated destination, not a confirmed sighting); reported missing the next day",
+    "lat": -26.211,
+    "lng": 28.017,
+    "kind": "stated destination"
+   },
+   "found": {
+    "date": "2026-09-14",
+    "precision": "day",
+    "place": "Porcelain Avenue, Olifantsfontein (found by a passer-by on Monday morning)",
+    "lat": -25.964,
+    "lng": 28.236,
+    "pinPrecision": "road/area",
+    "placeNote": "",
+    "kmFromKemptonPark": 15.0
+   },
+   "circumstances": "Missing for almost six months. Her family reported ransom demands after she disappeared: they paid R3,000 and a further R2,500 was demanded (Daily Maverick, The South African). She was found semi-naked and bruised. Her name was initially withheld; an uncle identified her by her hairstyle and clothing. She was buried in Limpopo on 24 September.",
+   "legal": "No arrest reported.",
+   "court": [],
+   "conflicts": [
+    "Some reports describe the 14 September discovery as being in 'Kempton Park'. Most reports and the SAPS list give Olifantsfontein."
+   ],
+   "sources": [
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "tsa_0926",
+     "title": "Ekurhuleni murders: What we know about all 10 women",
+     "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-what-we-know-about-all-10-women/",
+     "outlet": "The South African",
+     "date": "2026-09-26",
+     "access": "read"
+    },
+    {
+     "key": "saps_0914",
+     "title": "Police intensify investigations as four bodies are found in Kempton Park (SAPS media statement)",
+     "url": "https://www.gov.za/news/media-statements/police-intensify-investigations-four-bodies-are-found-kempton-park-14-sep",
+     "outlet": "SAPS via gov.za",
+     "date": "2026-09-14",
+     "access": "read"
+    },
+    {
+     "key": "dm_kekana",
+     "title": "Brother's agonising search for Ekurhuleni killings victim Itumeleng Kekana",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-17-brothers-agonising-search-for-ekurhuleni-killings-victim-itumeleng-kekana/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-17",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    }
+   ],
+   "lastSeenToFound": {
+    "days": 176
+   },
+   "events": [
+    "mathebula-missing",
+    "mathebula-found",
+    "mathebula-burial"
+   ]
+  },
+  {
+   "id": "motapane",
+   "num": 8,
+   "name": "Dineo Evelyn Motapane",
+   "age": "38",
+   "group": "taskteam",
+   "linkStatus": "Under task team investigation. No arrest reported.",
+   "statusShort": "under task team investigation; no arrest",
+   "lastSeen": {
+    "date": "2026-09-13",
+    "precision": "approximate",
+    "time": "≈17:00",
+    "place": "Last seen by relatives on Sunday afternoon (place not reported). The family had not reported her missing.",
+    "lat": null,
+    "lng": null
+   },
+   "found": {
+    "date": "2026-09-15",
+    "precision": "approximate",
+    "time": "≈06:40",
+    "place": "Beside Moshoeshoe Street, KwaThema (Springs), found by a passer-by",
+    "lat": -26.295,
+    "lng": 28.391,
+    "pinPrecision": "road/area",
+    "placeNote": "",
+    "kmFromKemptonPark": 27.0
+   },
+   "circumstances": "Preliminary findings indicated she had been strangled (as reported). BBC describes the body as battered and partly burned. Her family identified her at the Springs mortuary on 16 September. She leaves a young daughter (reported as two years old). Residents held a march in KwaThema.",
+   "legal": "No arrest reported.",
+   "court": [],
+   "conflicts": [],
+   "sources": [
+    {
+     "key": "dm_kekana",
+     "title": "Brother's agonising search for Ekurhuleni killings victim Itumeleng Kekana",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-17-brothers-agonising-search-for-ekurhuleni-killings-victim-itumeleng-kekana/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-17",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "tsa_0926",
+     "title": "Ekurhuleni murders: What we know about all 10 women",
+     "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-what-we-know-about-all-10-women/",
+     "outlet": "The South African",
+     "date": "2026-09-26",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "st_0916",
+     "title": "Treat these as possible serial murders until proven otherwise: forensic psychologist on Ekurhuleni women's deaths",
+     "url": "https://www.sundaytimes.timeslive.co.za/news/2026-09-16-treat-these-as-possible-serial-murders-until-proven-otherwise-forensic-psychologist-on-ekurhuleni-womens-deaths/",
+     "outlet": "Sunday Times / TimesLIVE",
+     "date": "2026-09-16",
+     "access": "read"
+    }
+   ],
+   "lastSeenToFound": {
+    "days": 2,
+    "hours": 37.7
+   },
+   "events": [
+    "motapane-lastseen",
+    "motapane-found",
+    "motapane-id"
+   ]
+  },
+  {
+   "id": "ntimba",
+   "num": 9,
+   "name": "Jabulile Ntimba",
+   "age": "about 30",
+   "group": "arrest",
+   "linkStatus": "Arrest made: two women charged. Police cite a possible relationship ('love triangle') motive and have not linked this case to the others.",
+   "statusShort": "arrest made - two women charged (separate motive per police)",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-09-17",
+    "precision": "day",
+    "place": "Open area on Lama Street, Villa Liza, Dawn Park (Boksburg)",
+    "lat": -26.326,
+    "lng": 28.248,
+    "pinPrecision": "road/area",
+    "placeNote": "Found on Thursday morning.",
+    "kmFromKemptonPark": 26.0
+   },
+   "circumstances": "Found partially clothed with a fatal throat injury (as reported).",
+   "legal": "Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody until 1 October for a bail application. They are presumed innocent and are not named on this site.",
+   "court": [
+    {
+     "date": "2026-09-21",
+     "text": "First appearance, Boksburg Magistrates' Court; remanded in custody",
+     "scheduled": false
+    },
+    {
+     "date": "2026-10-01",
+     "text": "Bail application, Boksburg Magistrates' Court",
+     "scheduled": true
+    }
+   ],
+   "conflicts": [
+    "eNCA spells her surname 'Timba'. The suburb is spelled both 'Villa Liza' and 'Villa Lisa'. BBC (26 Sept) says 'three men appeared in court' in one of the earlier cases, which does not match other reports (two women charged, one man released)."
+   ],
+   "sources": [
+    {
+     "key": "tsa_0924",
+     "title": "Ekurhuleni murders: Forensics link persons of interest to victims",
+     "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-forensics-link-persons-of-interest-to-victims/",
+     "outlet": "The South African",
+     "date": "2026-09-24",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "national_0922",
+     "title": "Ekurhuleni murders: two cases, three arrests as probe of nine deaths widens",
+     "url": "https://thenational.co.za/news/2026-09-22-ekurhuleni-murders-two-cases-three-arrests-as-probe-of-nine-deaths-widens/",
+     "outlet": "The National",
+     "date": "2026-09-22",
+     "access": "snippet"
+    },
+    {
+     "key": "sabc_0920",
+     "title": "Three persons of interest questioned over East Rand murders",
+     "url": "https://www.sabcnews.com/sabcnews/three-persons-of-interest-questioned-over-east-rand-murders/",
+     "outlet": "SABC News",
+     "date": "2026-09-20",
+     "access": "read"
+    },
+    {
+     "key": "bbc_10th",
+     "title": "Tenth woman's body found as South Africa police probe killings",
+     "url": "https://www.bbc.com/news/articles/c3vgyyj8q807o",
+     "outlet": "BBC News",
+     "date": "2026-09-26",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "ntimba-found",
+    "ntimba-arrests",
+    "ntimba-court",
+    "ntimba-bail"
+   ]
+  },
+  {
+   "id": "nxumalo",
+   "num": 10,
+   "name": "Ntombifuthi Nxumalo",
+   "age": null,
+   "group": "arrest",
+   "linkStatus": "Arrest made: a 36-year-old man charged with murder. Gauteng police said it was too early to say whether this case is linked to the others.",
+   "statusShort": "arrest made - man charged with murder (link not established)",
+   "lastSeen": {
+    "date": "2026-09-25",
+    "precision": "approximate",
+    "time": "evening",
+    "place": "At a tavern with a female friend on Friday night; reportedly left with a man (tavern location not reported)",
+    "lat": null,
+    "lng": null
+   },
+   "found": {
+    "date": "2026-09-26",
+    "precision": "day",
+    "place": "At/next to Mooifontein Cemetery, Vusimuzi section, Tembisa (Saturday morning)",
+    "lat": -26.026,
+    "lng": 28.206,
+    "pinPrecision": "section/area",
+    "placeNote": "Pin at Vusimuzi section level; the cemetery's exact position was not verified.",
+    "kmFromKemptonPark": 8.0
+   },
+   "circumstances": "Found with serious head injuries; stones were found nearby and the Gauteng commissioner said she may have been stoned (as reported). Residents reported hearing screams at about 23:00 on Friday. Her friend identified her by her clothes. She leaves five children; her family planned a burial in Nongoma, KwaZulu-Natal.",
+   "legal": "A 36-year-old man was traced to a village in Limpopo and arrested. He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. The State opposes bail and the bail hearing was postponed to 6 October; he remains in custody. He is presumed innocent and is not named on this site.",
+   "court": [
+    {
+     "date": "2026-09-29",
+     "text": "First appearance, Tembisa Magistrates' Court; bail hearing postponed",
+     "scheduled": false
+    },
+    {
+     "date": "2026-10-06",
+     "text": "Bail hearing, Tembisa Magistrates' Court",
+     "scheduled": true
+    }
+   ],
+   "conflicts": [
+    "IOL spells her first name 'Ntombifuthu'.",
+    "Arrest timing: Daily Maverick says Saturday evening (26 Sept); the President's address says Sunday morning (27 Sept)."
+   ],
+   "sources": [
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "iol_0928",
+     "title": "Ekurhuleni women's deaths: Latest shooting not linked as cemetery suspect arrested",
+     "url": "https://iol.co.za/news/crime-and-courts/2026-09-28-ekurhuleni-womens-deaths-latest-shooting-not-linked-as-cemetery-suspect-arrested/",
+     "outlet": "IOL",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "timeslive_0929",
+     "title": "Ekurhuleni murder accused to remain in custody as bail date postponed",
+     "url": "https://www.timeslive.co.za/news/south-africa/2026-09-29-ekurhuleni-murder-accused-to-remain-in-custody-as-bail-date-postponed/",
+     "outlet": "TimesLIVE",
+     "date": "2026-09-29",
+     "access": "read"
+    },
+    {
+     "key": "bbc_10th",
+     "title": "Tenth woman's body found as South Africa police probe killings",
+     "url": "https://www.bbc.com/news/articles/c3vgyyj8q807o",
+     "outlet": "BBC News",
+     "date": "2026-09-26",
+     "access": "read"
+    },
+    {
+     "key": "sabc_0926",
+     "title": "Gauteng police cannot rule out serial killer in Ekurhuleni",
+     "url": "https://www.sabcnews.com/sabcnews/gauteng-police-cannot-rule-out-serial-killer-in-ekurhuleni/",
+     "outlet": "SABC News",
+     "date": "2026-09-26",
+     "access": "read"
+    },
+    {
+     "key": "presidency_0929",
+     "title": "Address to the nation by President Cyril Ramaphosa on the killings of women in Ekurhuleni and the national response to gender-based violence",
+     "url": "https://thepresidency.gov.za/address-nation-president-cyril-ramaphosa-killings-women-ekurhuleni-and-national-response-gender",
+     "outlet": "The Presidency",
+     "date": "2026-09-29",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    }
+   ],
+   "lastSeenToFound": {
+    "days": 1
+   },
+   "events": [
+    "nxumalo-tavern",
+    "nxumalo-found",
+    "nxumalo-arrest",
+    "nxumalo-court",
+    "nxumalo-bail"
+   ]
+  },
+  {
+   "id": "springs",
+   "num": 11,
+   "name": "Unidentified woman (Springs)",
+   "age": null,
+   "group": "taskteam",
+   "linkStatus": "The task team responded to the scene. Unidentified. No arrest reported; police have not confirmed a link.",
+   "statusShort": "unidentified; task team attended; link not confirmed; no arrest",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-09-27",
+    "precision": "approximate",
+    "time": "≈12:00",
+    "place": "Open veld near Rhokana Road, Springs, close to a railway line, found by a patrolling security company",
+    "lat": -26.315,
+    "lng": 28.447,
+    "pinPrecision": "road/area",
+    "placeNote": "",
+    "kmFromKemptonPark": 32.0
+   },
+   "circumstances": "Found semi-naked; IOL reports she appeared to have been strangled. The task team, Crime Intelligence and the Investigative Psychology Section attended (EWN).",
+   "legal": "No arrest reported.",
+   "court": [],
+   "conflicts": [],
+   "sources": [
+    {
+     "key": "ewn_0927",
+     "title": "11th body discovered in Springs amid Ekurhuleni murder probe",
+     "url": "https://www.ewn.co.za/2026/09/27/11th-body-discovered-in-springs-amid-ekurhuleni-murder-probe",
+     "outlet": "EWN",
+     "date": "2026-09-27",
+     "access": "read"
+    },
+    {
+     "key": "iol_0928",
+     "title": "Ekurhuleni women's deaths: Latest shooting not linked as cemetery suspect arrested",
+     "url": "https://iol.co.za/news/crime-and-courts/2026-09-28-ekurhuleni-womens-deaths-latest-shooting-not-linked-as-cemetery-suspect-arrested/",
+     "outlet": "IOL",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "springs-found"
+   ]
+  },
+  {
+   "id": "nhlanzi",
+   "num": 12,
+   "name": "Boitumelo Nhlanzi",
+   "age": "23",
+   "group": "other",
+   "linkStatus": "Not part of the task team cases. Police say it is not linked. Murder and robbery case opened.",
+   "statusShort": "not part of task team cases",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-09-28",
+    "precision": "approximate",
+    "time": "≈05:45",
+    "place": "Mapungubwe Street, Temong section, Tembisa (shot on her way to work)",
+    "lat": -26.004,
+    "lng": 28.212,
+    "pinPrecision": "road/area",
+    "placeNote": "",
+    "kmFromKemptonPark": 10.0
+   },
+   "circumstances": "Shot dead on her way to work early on Monday; her belongings were taken. Police said her estranged husband was a person of interest. He was found dead in his vehicle in Midrand later that day; police do not suspect foul play and an inquest was opened. He is not named here.",
+   "legal": "Murder and robbery case opened. Police said the case is not linked to the other Ekurhuleni cases and is not being investigated by the task team (Daily Maverick).",
+   "court": [],
+   "conflicts": [
+    "BBC names her 'Boitumelo Gift Mashita'. Daily Maverick and IOL use 'Boitumelo Nhlanzi'. BBC includes her in its count of 12."
+   ],
+   "sources": [
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "iol_0928",
+     "title": "Ekurhuleni women's deaths: Latest shooting not linked as cemetery suspect arrested",
+     "url": "https://iol.co.za/news/crime-and-courts/2026-09-28-ekurhuleni-womens-deaths-latest-shooting-not-linked-as-cemetery-suspect-arrested/",
+     "outlet": "IOL",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "nhlanzi-husband",
+    "nhlanzi-shot"
+   ]
+  },
+  {
+   "id": "soweto",
+   "num": null,
+   "name": "Unidentified woman (Moroka Dam, Soweto)",
+   "age": "20s (police estimate)",
+   "group": "other",
+   "linkStatus": "Outside Ekurhuleni (City of Johannesburg). Inquest opened. No confirmed link.",
+   "statusShort": "outside Ekurhuleni; inquest; no confirmed link",
+   "lastSeen": null,
+   "found": {
+    "date": "2026-09-20",
+    "precision": "approximate",
+    "time": "≈17:00",
+    "place": "In Moroka Dam, Soweto, wrapped in a duvet",
+    "lat": -26.262,
+    "lng": 27.877,
+    "pinPrecision": "landmark",
+    "placeNote": "BBC gives a distance of about 63 km (as reported, method not stated). The straight-line distance between the approximate pins on this map is about 40 km from central Kempton Park.",
+    "kmFromKemptonPark": 40.0
+   },
+   "circumstances": "Found on Sunday afternoon. Police opened an inquest. Gauteng police have mentioned it alongside the Ekurhuleni cases but have not confirmed a link.",
+   "legal": "Inquest opened. No arrest reported.",
+   "court": [],
+   "conflicts": [
+    "Daily Maverick counts her among 13 victims; the President's count of 11 covers Ekurhuleni only."
+   ],
+   "sources": [
+    {
+     "key": "iol_0921",
+     "title": "Woman's body found wrapped in duvet in Soweto dam as police open inquest",
+     "url": "https://iol.co.za/news/crime-and-courts/2026-09-21-inquest-opened-after-womans-body-found-in-soweto-dam/",
+     "outlet": "IOL",
+     "date": "2026-09-21",
+     "access": "read"
+    },
+    {
+     "key": "tsa_0924",
+     "title": "Ekurhuleni murders: Forensics link persons of interest to victims",
+     "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-forensics-link-persons-of-interest-to-victims/",
+     "outlet": "The South African",
+     "date": "2026-09-24",
+     "access": "read"
+    },
+    {
+     "key": "dm_0928",
+     "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
+     "url": "https://www.dailymaverick.co.za/article/2026-09-28-after-another-woman-murdered-in-ekurhuleni-heres-what-we-know-about-the-killings/",
+     "outlet": "Daily Maverick",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "bbc_12",
+     "title": "Ekurhuleni killings: What we know after bodies of 12 women found in South Africa",
+     "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
+     "outlet": "BBC News",
+     "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "bbc_10th",
+     "title": "Tenth woman's body found as South Africa police probe killings",
+     "url": "https://www.bbc.com/news/articles/c3vgyyj8q807o",
+     "outlet": "BBC News",
+     "date": "2026-09-26",
+     "access": "read"
+    }
+   ],
+   "events": [
+    "soweto-found"
+   ]
+  }
+ ]
+}

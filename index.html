@@ -75,7 +75,7 @@
 <main id="main">
   <section id="view-map" class="view" data-view="map" aria-label="Map">
     <div id="map-wrap">
-      <div id="map" aria-label="Map of Ekurhuleni with numbered markers at the approximate places where bodies were found"></div>
+      <div id="leaflet-map" aria-label="Map of Ekurhuleni with numbered markers at the approximate places where bodies were found"></div>
       <div class="map-modes" role="radiogroup" aria-label="Map mode">
         <button class="btn active" data-mode="cases" role="radio">Cases</button>
         <button class="btn" data-mode="single" role="radio">Scenario: single offender <span class="hypo-tag">HYPOTHETICAL</span></button>
@@ -98,8 +98,8 @@
         <button id="map-overview" class="btn">Overview (all cases)</button>
         <button id="map-play" class="btn">▶ Play through cases</button>
       </div>
-      <aside id="map-panel" class="map-panel" aria-live="polite"></aside>
-      <aside id="scen-panel" class="map-panel scen-panel" hidden aria-live="polite"></aside>
+      <div class="sheet" id="map-sheet"><aside id="map-panel" class="map-panel" aria-live="polite"></aside></div>
+      <div class="sheet" id="scen-sheet"><aside id="scen-panel" class="map-panel scen-panel" hidden aria-live="polite"></aside></div>
       <div id="prec-legend" class="prec-legend" hidden></div>
       <button id="patterns-btn" class="btn patterns-btn">Patterns &amp; differences (what officials and experts said)</button>
       <div id="patterns" class="patterns" hidden role="dialog" aria-label="Patterns and differences"></div>
@@ -110,7 +110,7 @@
           <div class="hud-mid">
             <div id="mp-time" class="hud-time">–</div>
             <div class="progress" id="mp-progress"><div id="mp-prog" class="progress-fill"></div><div id="mp-ticks" class="ticks"></div></div>
-            <div class="hud-hint">Scroll over this bar or the panel, use ← → keys, drag along the bar, or click a tick to move through the cases in the order they were found. Scrolling on the map zooms.</div>
+            <div class="hud-hint"><span class="hint-mouse">Scroll over this bar or the panel, use ← → keys, drag along the bar, or click a tick to move through the cases in the order they were found. Scrolling on the map zooms.</span><span class="hint-touch">Tap ◀ ▶ or drag the bar to step through cases · pinch to zoom</span></div>
           </div>
           <button id="mp-next" class="btn" aria-label="Next case">▶</button>
         </div>
@@ -132,6 +132,7 @@
         <button id="tl-listtoggle" class="btn">List view</button>
       </div>
     </div>
+    <div class="zctl" role="group" aria-label="Zoom and pan the timeline"><span class="lbl">Zoom</span><button class="btn" data-zstep="0.625" aria-label="Zoom out">−</button><button class="btn" data-zstep="1.6" aria-label="Zoom in">+</button><span class="lbl" style="margin-left:8px">Pan</span><button class="btn" data-pan="-1" aria-label="Pan to earlier dates">◀</button><button class="btn" data-pan="1" aria-label="Pan to later dates">▶</button></div>
     <div class="tl-filters">
       <div class="fgrp" id="f-cat"><span class="lbl">Type</span></div>
       <div class="fgrp" id="f-status"><span class="lbl">Source type</span></div>
@@ -380,5 +381,6 @@
 <script src="js/scenario.js"></script>
 <script src="js/timeline.js"></script>
 <script src="js/cases.js"></script>
+<script src="js/mobile.js"></script>
 </body>
 </html>

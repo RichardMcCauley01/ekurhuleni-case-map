@@ -104,9 +104,9 @@ function setupBasemap(){
 }
 function init(){
   if (inited) return; inited = true;
-  const fit = () => { const w = document.getElementById('map-wrap'); const top = w.getBoundingClientRect().top + window.scrollY; w.style.height = Math.max(600, window.innerHeight - top) + 'px'; if (map) map.invalidateSize(); };
+  const fit = () => { const w = document.getElementById('map-wrap'); const top = w.getBoundingClientRect().top + window.scrollY; const phone = window.matchMedia('(max-width: 760px)').matches; const vh = phone && window.visualViewport ? window.visualViewport.height : window.innerHeight; w.style.height = Math.max(phone ? 440 : 600, Math.round(vh - top)) + 'px'; if (map) map.invalidateSize(); };
   window.addEventListener('resize', fit); fit();
-  map = L.map('map', { zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 90, zoomControl: true, attributionControl: true, preferCanvas: false }).setView([-26.12, 28.28], 10.4);
+  map = L.map('leaflet-map', { zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 90, zoomControl: true, attributionControl: true, preferCanvas: false }).setView([-26.12, 28.28], 10.4);
   map.zoomControl.setPosition('topleft');
   // Basemap with automatic fallback + picker (dark / street / satellite). See setupBasemap() below.
   map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
@@ -174,7 +174,7 @@ function applyLayers(){
 function overview(){
   stopPlay();
   const pts = steps.filter(visibleCase).map(c => [c.found.lat, c.found.lng]);
-  if (pts.length) map.flyToBounds(L.latLngBounds(pts).pad(0.12), { duration: 1.2, paddingTopLeft: [300, 60], paddingBottomRight: [440, 110] });
+  if (pts.length) map.flyToBounds(L.latLngBounds(pts).pad(0.12), Object.assign({ duration: 1.2 }, window.matchMedia('(max-width: 760px)').matches ? { paddingTopLeft: [16, 110], paddingBottomRight: [16, 290] } : { paddingTopLeft: [300, 60], paddingBottomRight: [440, 110] }));
 }
 
 /* ---------- fly-through ---------- */
@@ -189,7 +189,8 @@ let lastView = '';
 function flyToStep(i){
   const c = steps[i]; if (!c) return;
   const z = zoomFor(c), off = panelOffset();
-  const center = map.unproject(map.project([c.found.lat, c.found.lng], z).add([off, 0]), z);
+  const offY = window.matchMedia('(max-width: 760px)').matches ? 80 : 0;   // phones: keep the marker between the top banner and the bottom sheet
+  const center = map.unproject(map.project([c.found.lat, c.found.lng], z).add([off, offY]), z);
   const d = map.distance(map.getCenter(), center) / 1000;
   S.mapFlying = true;
   map.flyTo(center, z, { duration: Math.min(3.2, 1.1 + d / 14), easeLinearity: 0.18 });

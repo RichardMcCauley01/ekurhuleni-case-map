@@ -17,7 +17,7 @@ const GROUPS = [{ key: 'taskteam', name: 'Task team, no arrest', color: GC.taskt
 const U = (y, m, d, h) => new Date(Date.UTC(y, m - 1, d || 1, h || 0));
 const PRESETS = { all: [U(2026, 7, 1), U(2026, 10, 9)], sept: [U(2026, 9, 1), U(2026, 10, 2)], last10: [U(2026, 9, 19), U(2026, 10, 7)], wide: [U(2026, 3, 1), U(2026, 10, 9)] };
 const F = { cats: new Set(CATS), status: new Set(STATUS.map(s => s.key)), groups: new Set(GROUPS.map(g => g.key)), q: '' };
-let svg, gPlot, gAxis, gGrid, gLanes, gGaps, gToday, x0, zx, zoom, W = 1000, selected = null, inited = false, tip, focusCase = null;
+let svg, gPlot, gAxis, gGrid, gLanes, gGaps, gToday, x0, zx, zoom, W = 1000, selected = null, inited = false, tip, focusCase = null, PH = false;   // PH: narrow (phone) layout
 const M = { left: 230, right: 18, top: 62, bottom: 22 };
 const items = DATA.events.map(e => ({ e, lane: e.lane, t: C.parseLocal(e.datetime), sg: C.statusGroup(e.status), key: e.id }));
 const laneGroup = {}; LANES.forEach(l => laneGroup[l.key] = l.group);
@@ -42,6 +42,9 @@ function buildFilters(){
   document.getElementById('tl-search').addEventListener('input', ev => { F.q = ev.target.value.trim().toLowerCase(); draw(); drawList(); });
   document.getElementById('tl-listtoggle').addEventListener('click', ev => { const l = document.getElementById('tl-list'); l.hidden = !l.hidden; ev.target.classList.toggle('active', !l.hidden); ev.target.textContent = l.hidden ? 'List view' : 'Hide list'; drawList(); });
   document.querySelectorAll('.zbtn').forEach(b => b.addEventListener('click', () => zoomTo(b.dataset.zoom, true)));
+  // zoom / pan buttons (shown on touch devices and phones)
+  document.querySelectorAll('.zctl [data-zstep]').forEach(b => b.addEventListener('click', () => svg.transition().duration(320).call(zoom.scaleBy, +b.dataset.zstep, [(M.left + W - M.right) / 2, 0])));
+  document.querySelectorAll('.zctl [data-pan]').forEach(b => b.addEventListener('click', () => svg.transition().duration(320).call(zoom.translateBy, -b.dataset.pan * (W - M.left - M.right) * 0.4, 0)));
 }
 function init(){
   if (inited) return; inited = true;
@@ -57,10 +60,25 @@ function init(){
   gAxis = svg.append('g').attr('class', 'axis');
   gPlot = svg.append('g').attr('clip-path', 'url(#tlclip)');
   x0 = d3.scaleUtc().domain(PRESETS.all); zx = x0.copy();
-  zoom = d3.zoom().scaleExtent([0.2, 400]).on('zoom', ev => { zx = ev.transform.rescaleX(x0); draw(); });
+  zoom = d3.zoom().scaleExtent([0.2, 400]).filter(ev => (!ev.ctrlKey || ev.type === 'wheel') && !ev.button && !(ev.type === 'touchstart' && ev.touches.length < 2)).on('zoom', ev => { zx = ev.transform.rescaleX(x0); draw(); });
   svg.call(zoom).on('dblclick.zoom', null);
+
+  // Touch: d3 handles two-finger pinch only. A one-finger horizontal drag pans (below); vertical swipes scroll the
+  // page natively (CSS touch-action: pan-y on the svg), so the chart never traps the page on phones.
+  (function(){ let tp = null; const node = svg.node();
+    node.addEventListener('pointerdown', ev => { if (ev.pointerType !== 'touch') return; tp = ev.isPrimary ? { x: ev.clientX, y: ev.clientY, lx: ev.clientX, mode: null } : null; });
+    node.addEventListener('pointermove', ev => {
+      if (!tp || ev.pointerType !== 'touch' || !ev.isPrimary) return;
+      const dx = ev.clientX - tp.x, dy = ev.clientY - tp.y;
+      if (!tp.mode){ if (Math.hypot(dx, dy) < 8) return; tp.mode = Math.abs(dx) > Math.abs(dy) ? 'pan' : 'scroll'; }
+      if (tp.mode === 'pan') svg.call(zoom.translateBy, (ev.clientX - tp.lx) / d3.zoomTransform(node).k, 0);
+      tp.lx = ev.clientX;
+    });
+    ['pointerup', 'pointercancel'].forEach(t => node.addEventListener(t, ev => { if (ev.isPrimary) tp = null; }));
+  })();
   const resize = () => {
     W = document.getElementById('tl-chart').clientWidth || 1000;
+    PH = W < 600; M.left = PH ? 120 : 230;
     const t = d3.zoomTransform(svg.node());
     x0.range([M.left, W - M.right]); zx = t.rescaleX(x0);
     zoom.extent([[M.left, 0], [W - M.right, 10]]).translateExtent([[x0(U(2026, 2, 1)), 0], [x0(U(2026, 11, 15)), 10]]);
@@ -86,7 +104,7 @@ function layout(vis){
   vis.forEach(d => {
     d.x = zx(d.t);
     const inView = d.t >= d0 && d.t <= d1, rows = rowsByLane[d.lane], maxRows = 6;
-    const lw = Math.min(d.e.title.length, 30) * 6 + 14;
+    const LM = PH ? 20 : 30, lw = Math.min(d.e.title.length, LM) * 6 + 14;
     let r = rows.findIndex(end => end < d.x - 6);
     if (r === -1 && rows.length < maxRows){ r = rows.length; rows.push(-Infinity); }
     if (r !== -1){ d.row = r; d.label = inView; rows[r] = d.x + (inView ? lw : 12); } else { d.row = maxRows; d.label = false; }
@@ -106,9 +124,9 @@ function draw(){
   const lg = gLanes.selectAll('g.lane').data(lanes, d => d.key).join(enter => { const g = enter.append('g').attr('class', 'lane'); g.append('rect').attr('class', 'lane-bg'); g.append('rect').attr('class', 'lane-color'); g.append('text').attr('class', 'lane-label'); g.append('text').attr('class', 'lane-sub'); return g; });
   lg.select('.lane-bg').attr('x', 0).attr('width', W).attr('y', d => laneY[d.key].y).attr('height', d => laneY[d.key].h).attr('class', (d, i) => 'lane-bg' + (i % 2 ? ' alt' : '') + (focusCase === d.key ? ' focus' : ''));
   lg.select('.lane-color').attr('x', 0).attr('width', 4).attr('y', d => laneY[d.key].y).attr('height', d => laneY[d.key].h).attr('fill', d => d.color);
-  lg.select('.lane-label').attr('x', 12).attr('y', d => laneY[d.key].y + 18).text(d => d.name.length > 32 ? d.name.slice(0, 31) + '…' : d.name).attr('fill', d => d.color).style('cursor', d => d.key === 'investigation' ? 'default' : 'pointer')
+  lg.select('.lane-label').attr('x', 12).attr('y', d => laneY[d.key].y + 18).text(d => { const n = PH ? 17 : 32; return d.name.length > n ? d.name.slice(0, n - 1) + '…' : d.name; }).attr('fill', d => d.color).style('cursor', d => d.key === 'investigation' ? 'default' : 'pointer')
     .on('click', (ev, d) => { if (d.key !== 'investigation') C.openCase(d.key); });
-  lg.select('.lane-sub').attr('x', 12).attr('y', d => laneY[d.key].y + 32).text(d => d.sub.length > 38 ? d.sub.slice(0, 37) + '…' : d.sub);
+  lg.select('.lane-sub').attr('x', 12).attr('y', d => laneY[d.key].y + 32).text(d => { const n = PH ? 20 : 38; return d.sub.length > n ? d.sub.slice(0, n - 1) + '…' : d.sub; });
   const ticks = Math.max(4, Math.floor((W - M.left) / 110));
   gAxis.attr('transform', 'translate(0,' + (M.top - 30) + ')').call(d3.axisTop(zx).ticks(ticks).tickSizeOuter(0));
   gGrid.attr('transform', 'translate(0,' + M.top + ')').call(d3.axisBottom(zx).ticks(ticks).tickSize(height - M.top).tickFormat('')).call(g => g.select('.domain').remove());
@@ -131,7 +149,7 @@ function draw(){
   });
   evs.attr('transform', d => 'translate(' + d.x + ',' + (laneY[d.lane].y + 14 + d.row * 20) + ')').classed('sel', d => d.e.id === selected).attr('aria-label', d => d.e.title + ', ' + C.fmtWhen(d.e));
   evs.select('circle').attr('fill', d => (d.e.precision === 'approximate' || d.sg === 'sched') ? '#12161c' : STATUS_COLOR[d.sg]).attr('stroke', d => STATUS_COLOR[d.sg]).attr('stroke-dasharray', d => d.sg === 'sched' ? '2 2' : null);
-  evs.select('text').text(d => d.label ? (d.e.title.length > 30 ? d.e.title.slice(0, 29) + '…' : d.e.title) : '');
+  evs.select('text').text(d => { const LM = PH ? 20 : 30; return d.label ? (d.e.title.length > LM ? d.e.title.slice(0, LM - 1) + '…' : d.e.title) : ''; });
   evs.on('click', (ev, d) => C.openEvent(d.e.id))
     .on('keydown', (ev, d) => { if (ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); C.openEvent(d.e.id); } })
     .on('mouseenter', (ev, d) => { tip.style('display', 'block').html('<div class="small" style="color:#d9b36c">' + esc(C.fmtWhen(d.e, { short: true })) + '</div><strong>' + esc(d.e.title) + '</strong><br>' + C.badge(d.e.status)); })
@@ -155,7 +173,7 @@ let pendingZoom = null;
 C.on('view', ({ view, params }) => {
   if (view !== 'timeline') return;
   init();
-  requestAnimationFrame(() => { W = document.getElementById('tl-chart').clientWidth || W; x0.range([M.left, W - M.right]); focusCase = params.get('case'); zoomTo(params.get('zoom') || pendingZoom || 'all', false); pendingZoom = null; if (params.get('event')) C.openEvent(params.get('event')); });
+  requestAnimationFrame(() => { W = document.getElementById('tl-chart').clientWidth || W; PH = W < 600; M.left = PH ? 120 : 230; x0.range([M.left, W - M.right]); focusCase = params.get('case'); zoomTo(params.get('zoom') || pendingZoom || 'all', false); pendingZoom = null; if (params.get('event')) C.openEvent(params.get('event')); });
 });
 C.on('params', ({ view, params }) => { if (view === 'timeline' && inited){ focusCase = params.get('case'); if (params.get('zoom')) zoomTo(params.get('zoom'), true); else draw(); if (params.get('event')) C.openEvent(params.get('event')); } });
 })();

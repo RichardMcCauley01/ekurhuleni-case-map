@@ -49,7 +49,7 @@ function drawSingle(){
   }
   window.MAPAPI.applyLayers();
   const pts = cs.map(c => [c.found.lat, c.found.lng]);
-  C_MAP().flyToBounds(L.latLngBounds(pts).pad(0.1), { duration: 1.1, paddingTopLeft: [280, 90], paddingBottomRight: [500, 40] });
+  C_MAP().flyToBounds(L.latLngBounds(pts).pad(0.1), Object.assign({ duration: 1.1 }, window.matchMedia('(max-width: 760px)').matches ? { paddingTopLeft: [16, 150], paddingBottomRight: [16, 200] } : { paddingTopLeft: [280, 90], paddingBottomRight: [500, 40] }));
   const tot = legs.reduce((s, x) => ({ st: s.st + x.l.straight, dk: s.dk + x.l.driveKm, dm: s.dm + x.l.driveMin }), { st: 0, dk: 0, dm: 0 });
   const span = cs.length > 1 ? Math.round((Date.parse(cs[cs.length - 1].found.date) - Date.parse(cs[0].found.date)) / 864e5) : 0;
   let h = '<div class="hypo-head">' + HYPO + '</div><h3>Scenario: single offender</h3>';
@@ -109,7 +109,7 @@ function drawMulti(){
   });
   window.MAPAPI.applyLayers();
   const pts = list.flatMap(g => g.cases.map(c => [c.found.lat, c.found.lng]));
-  C_MAP().flyToBounds(L.latLngBounds(pts).pad(0.1), { duration: 1.1, paddingTopLeft: [280, 90], paddingBottomRight: [500, 40] });
+  C_MAP().flyToBounds(L.latLngBounds(pts).pad(0.1), Object.assign({ duration: 1.1 }, window.matchMedia('(max-width: 760px)').matches ? { paddingTopLeft: [16, 150], paddingBottomRight: [16, 200] } : { paddingTopLeft: [280, 90], paddingBottomRight: [500, 40] }));
   let h = '<div class="hypo-head">' + HYPO + '</div><h3>Scenario: more than one offender / group</h3>';
   h += '<p class="small">This shows how the sites would group if different people were responsible for different cases. <strong>Police have not established this.</strong> The groups come from a simple geometric rule and say nothing about who is responsible.</p>';
   h += '<div class="scen-opts">Join two task-team sites into one group if they are within <select id="sc-D">' + [5, 8, 12, 20, 30].map(v => '<option' + (v === opt.D ? ' selected' : '') + '>' + v + '</option>').join('') + '</select> km (straight line) <em>and</em> were found within <select id="sc-T">' + [7, 14, 30, 60].map(v => '<option' + (v === opt.T ? ' selected' : '') + '>' + v + '</option>').join('') + '</select> days of each other (single linkage).</div>';

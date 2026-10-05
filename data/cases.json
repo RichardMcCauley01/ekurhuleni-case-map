@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-09-30",
-  "asOf": "2026-09-30",
+  "generated": "2026-10-05",
+  "asOf": "2026-10-05",
   "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
-  "eventCount": 50,
+  "eventCount": 54,
   "caseCount": 13,
   "distance": {
    "center": "Kempton Park centre (approx. -26.096, 28.234)",
@@ -129,7 +129,7 @@
     "kmFromKemptonPark": 1.0
    },
    "circumstances": "Found naked with her hands bound with cable ties (as reported by BBC and IOL). She was the first of the women whose deaths are now part of the Ekurhuleni investigation.",
-   "legal": "Her partner (boyfriend) was arrested two days later, on 17 July 2026, and remains in custody (BBC, Presidency). The accused has not been named here; he is presumed innocent. No court date was found in public reporting.",
+   "legal": "Her partner (boyfriend) was arrested two days later, on 17 July 2026, and remains in custody (BBC, Presidency). The accused has not been named here; he is presumed innocent. On 2 October the Gauteng police commissioner said the suspect in the July case remains in custody and is due to appear in court this month (date not given).",
    "court": [],
    "conflicts": [],
    "sources": [
@@ -163,6 +163,14 @@
      "url": "https://iol.co.za/news/crime-and-courts/2026-09-28-ekurhuleni-womens-deaths-latest-shooting-not-linked-as-cemetery-suspect-arrested/",
      "outlet": "IOL",
      "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1002",
+     "title": "Kempton Park murders: Here is the latest from police",
+     "url": "https://www.citizen.co.za/news/kempton-park-murders-here-is-the-latest-from-police/",
+     "outlet": "The Citizen",
+     "date": "2026-10-02",
      "access": "read"
     }
    ],
@@ -258,7 +266,7 @@
    "id": "mjobo",
    "num": 3,
    "name": "Nomfesane Mjobo",
-   "age": null,
+   "age": "42 (per SABC)",
    "group": "taskteam",
    "linkStatus": "Under task team investigation. No arrest reported.",
    "statusShort": "under task team investigation; no arrest",
@@ -273,7 +281,7 @@
     "placeNote": "Pin shows Kempton Park generally; the exact location was not reported.",
     "kmFromKemptonPark": 0.0
    },
-   "circumstances": "Few details have been released publicly. Family and friends held a candlelight vigil at the site where she was found (eNCA, 28 Sept).",
+   "circumstances": "Few details have been released publicly. Family and friends held a candlelight vigil at the site where she was found (eNCA, 28 Sept). SABC reported on 4 October that she was to be buried near Lusikisiki, Eastern Cape, that Sunday.",
    "legal": "No arrest reported.",
    "court": [],
    "conflicts": [
@@ -311,11 +319,20 @@
      "outlet": "The Presidency",
      "date": "2026-09-29",
      "access": "read"
+    },
+    {
+     "key": "sabc_1004",
+     "title": "Third Ekurhuleni murder victim is to be buried in Eastern Cape",
+     "url": "https://www.sabcnews.com/sabcnews/third-ekurhuleni-murder-victim-is-to-be-buried-in-eastern-cape/",
+     "outlet": "SABC News",
+     "date": "2026-10-04",
+     "access": "snippet"
     }
    ],
    "events": [
     "mjobo-found",
-    "mjobo-vigil"
+    "mjobo-vigil",
+    "mjobo-burial"
    ]
   },
   {
@@ -740,7 +757,7 @@
     "kmFromKemptonPark": 26.0
    },
    "circumstances": "Found partially clothed with a fatal throat injury (as reported).",
-   "legal": "Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody until 1 October for a bail application. They are presumed innocent and are not named on this site.",
+   "legal": "Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody. Their bail proceedings began on 1 October, when the first accused alleged in an affidavit that police had tortured her into confessing and said she did not kill Ntimba. The court has not tested these allegations. The matter was postponed to 12 October and both remain in custody. They are presumed innocent and are not named on this site.",
    "court": [
     {
      "date": "2026-09-21",
@@ -749,7 +766,12 @@
     },
     {
      "date": "2026-10-01",
-     "text": "Bail application, Boksburg Magistrates' Court",
+     "text": "Bail proceedings begin, Boksburg Magistrates' Court; first accused alleges a forced confession; postponed, both remain in custody",
+     "scheduled": false
+    },
+    {
+     "date": "2026-10-12",
+     "text": "Bail proceedings continue, Boksburg Magistrates' Court",
      "scheduled": true
     }
    ],
@@ -804,13 +826,30 @@
      "outlet": "BBC News",
      "date": "2026-09-26",
      "access": "read"
+    },
+    {
+     "key": "iol_1001",
+     "title": "UPDATE: Police torture claim rocks Jabulile Ntimba murder case as accused alleges forced confession",
+     "url": "https://iol.co.za/news/politics/2026-10-01-update-police-torture-claim-rocks-jabulile-ntimba-murder-case-as-accused-alleges-forced-confession/",
+     "outlet": "IOL",
+     "date": "2026-10-01",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1001",
+     "title": "Jabulile Ntimba murder accused denies killing 'cousin', claims police torture to obtain confession",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/jabulile-ntimba-murder-accused-killing-cousin/",
+     "outlet": "The Citizen",
+     "date": "2026-10-01",
+     "access": "snippet"
     }
    ],
    "events": [
     "ntimba-found",
     "ntimba-arrests",
     "ntimba-court",
-    "ntimba-bail"
+    "ntimba-bail",
+    "ntimba-bail2"
    ]
   },
   {
@@ -840,7 +879,7 @@
     "kmFromKemptonPark": 8.0
    },
    "circumstances": "Found with serious head injuries; stones were found nearby and the Gauteng commissioner said she may have been stoned (as reported). Residents reported hearing screams at about 23:00 on Friday. Her friend identified her by her clothes. She leaves five children; her family planned a burial in Nongoma, KwaZulu-Natal.",
-   "legal": "A 36-year-old man was traced to a village in Limpopo and arrested. He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. The State opposes bail and the bail hearing was postponed to 6 October; he remains in custody. He is presumed innocent and is not named on this site.",
+   "legal": "A 36-year-old man was traced to a village in Limpopo and arrested (in Tzaneen, according to the Gauteng police commissioner on 2 October). He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. The State opposes bail and the bail hearing was postponed to 6 October; he remains in custody. He is presumed innocent and is not named on this site.",
    "court": [
     {
      "date": "2026-09-29",
@@ -912,6 +951,14 @@
      "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
      "outlet": "BBC News",
      "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1002",
+     "title": "Kempton Park murders: Here is the latest from police",
+     "url": "https://www.citizen.co.za/news/kempton-park-murders-here-is-the-latest-from-police/",
+     "outlet": "The Citizen",
+     "date": "2026-10-02",
      "access": "read"
     }
    ],
@@ -991,11 +1038,11 @@
   {
    "id": "nhlanzi",
    "num": 12,
-   "name": "Boitumelo Nhlanzi",
+   "name": "Boitumelo Gift Mashita",
    "age": "23",
    "group": "other",
-   "linkStatus": "Not part of the task team cases. Police say it is not linked. Murder and robbery case opened.",
-   "statusShort": "not part of task team cases",
+   "linkStatus": "Not part of the task team cases. Police say it is not linked. On 2 October the Gauteng police commissioner described the case as resolved: the suspect, who police say was in a romantic relationship with her, is believed to have taken his own life.",
+   "statusShort": "not part of task team cases; police regard it as resolved",
    "lastSeen": null,
    "found": {
     "date": "2026-09-28",
@@ -1009,12 +1056,28 @@
     "kmFromKemptonPark": 10.0
    },
    "circumstances": "Shot dead on her way to work early on Monday; her belongings were taken. Police said her estranged husband was a person of interest. He was found dead in his vehicle in Midrand later that day; police do not suspect foul play and an inquest was opened. He is not named here.",
-   "legal": "Murder and robbery case opened. Police said the case is not linked to the other Ekurhuleni cases and is not being investigated by the task team (Daily Maverick).",
+   "legal": "Murder and robbery case opened. Police said the case is not linked to the other Ekurhuleni cases and is not being investigated by the task team (Daily Maverick). On 2 October the Gauteng police commissioner counted it among the resolved cases, because the suspect is believed to have died by suicide.",
    "court": [],
    "conflicts": [
-    "BBC names her 'Boitumelo Gift Mashita'. Daily Maverick and IOL use 'Boitumelo Nhlanzi'. BBC includes her in its count of 12."
+    "Police (quoted by TimesLIVE, EWN and The Citizen), BBC and later reports name her 'Boitumelo Gift Mashita'. Early Daily Maverick and IOL reports used 'Boitumelo Nhlanzi'. BBC includes her in its count of 12."
    ],
    "sources": [
+    {
+     "key": "timeslive_0928",
+     "title": "Thembisa woman was killed by someone known to her, says her family",
+     "url": "https://www.timeslive.co.za/news/south-africa/2026-09-28-thembisa-woman-was-killed-by-someone-known-to-her-says-her-family/",
+     "outlet": "TimesLIVE",
+     "date": "2026-09-28",
+     "access": "snippet"
+    },
+    {
+     "key": "ewn_0929",
+     "title": "Cops probing death of man linked to the murder of Tembisa woman",
+     "url": "https://www.ewn.co.za/2026/09/29/cops-probing-death-of-man-linked-to-the-murder-of-tembisa-woman",
+     "outlet": "EWN",
+     "date": "2026-09-29",
+     "access": "snippet"
+    },
     {
      "key": "dm_0928",
      "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
@@ -1037,6 +1100,14 @@
      "url": "https://www.bbc.com/news/articles/c6m27dprvzv7o",
      "outlet": "BBC News",
      "date": "2026-09-28",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1002",
+     "title": "Kempton Park murders: Here is the latest from police",
+     "url": "https://www.citizen.co.za/news/kempton-park-murders-here-is-the-latest-from-police/",
+     "outlet": "The Citizen",
+     "date": "2026-10-02",
      "access": "read"
     }
    ],

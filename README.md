@@ -1,6 +1,6 @@
 # Ekurhuleni killings of women, 2026: case map (source-cited)
 
-A static, offline-capable site with a map, timeline and case files covering the women whose bodies were found in the City of Ekurhuleni, Gauteng, from July 2026. It was compiled from public sources and is current as of **30 September 2026 (SAST)**. Police have **not** confirmed a serial killer. Every item is cited and tagged by source type: police statement / official statement / court / media report / expert opinion.
+A static, offline-capable site with a map, timeline and case files covering the women whose bodies were found in the City of Ekurhuleni, Gauteng, from July 2026. It was compiled from public sources and is current as of **5 October 2026 (SAST)**. Police have **not** confirmed a serial killer. Every item is cited and tagged by source type: police statement / official statement / court / media report / expert opinion.
 
 ## Open it
 - **Local server:** `python3 -m http.server 8766 --bind 127.0.0.1`, run in this folder, then open http://127.0.0.1:8766/

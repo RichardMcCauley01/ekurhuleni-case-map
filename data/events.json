@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-09-30",
-  "asOf": "2026-09-30",
+  "generated": "2026-10-05",
+  "asOf": "2026-10-05",
   "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
-  "eventCount": 50,
+  "eventCount": 54,
   "caseCount": 13,
   "distance": {
    "center": "Kempton Park centre (approx. -26.096, 28.234)",
@@ -1723,6 +1723,14 @@
      "outlet": "IOL",
      "date": "2026-09-28",
      "access": "read"
+    },
+    {
+     "key": "ewn_0929",
+     "title": "Cops probing death of man linked to the murder of Tembisa woman",
+     "url": "https://www.ewn.co.za/2026/09/29/cops-probing-death-of-man-linked-to-the-murder-of-tembisa-woman",
+     "outlet": "EWN",
+     "date": "2026-09-29",
+     "access": "snippet"
     }
    ],
    "note": null,
@@ -1734,13 +1742,21 @@
    "id": "nhlanzi-shot",
    "datetime": "2026-09-28T05:45",
    "precision": "approximate",
-   "title": "Boitumelo Nhlanzi (23) shot dead in Temong, Tembisa",
+   "title": "Boitumelo Gift Mashita (23) shot dead in Temong, Tembisa",
    "description": "She was shot on Mapungubwe Street on her way to work and her belongings were taken. A murder and robbery case was opened. Police said the case is not linked to the others and is not part of the task team investigation.",
    "lane": "nhlanzi",
    "category": "found",
    "status": "police statement",
    "location": "Temong, Tembisa",
    "sources": [
+    {
+     "key": "timeslive_0928",
+     "title": "Thembisa woman was killed by someone known to her, says her family",
+     "url": "https://www.timeslive.co.za/news/south-africa/2026-09-28-thembisa-woman-was-killed-by-someone-known-to-her-says-her-family/",
+     "outlet": "TimesLIVE",
+     "date": "2026-09-28",
+     "access": "snippet"
+    },
     {
      "key": "dm_0928",
      "title": "After another woman murdered in Ekurhuleni, here's what we know about the killings",
@@ -1840,26 +1856,117 @@
    "id": "ntimba-bail",
    "datetime": "2026-10-01",
    "precision": "day",
-   "title": "Scheduled: bail application of the two accused (Ntimba case)",
-   "description": "The two women are due back in the Boksburg Magistrates' Court for a bail application. This date was scheduled as of the latest reports; the outcome is not known to this site.",
+   "title": "Ntimba case: bail proceedings begin; accused alleges forced confession",
+   "description": "The two women charged with premeditated murder and defeating the ends of justice appeared in the Boksburg Magistrates' Court for their bail proceedings. In an affidavit, the first accused alleged that police had tortured her into confessing and said she did not kill Ntimba. These allegations have not been tested in court. The matter was postponed to 12 October so the legal teams could prepare documents, and both remain in custody. They are presumed innocent and are not named here.",
    "lane": "ntimba",
    "category": "arrest-court",
-   "status": "scheduled",
+   "status": "court / charges",
    "location": "Boksburg Magistrates' Court",
    "sources": [
     {
-     "key": "tsa_0924",
-     "title": "Ekurhuleni murders: Forensics link persons of interest to victims",
-     "url": "https://www.thesouthafrican.com/news/ekurhuleni-murders-forensics-link-persons-of-interest-to-victims/",
-     "outlet": "The South African",
-     "date": "2026-09-24",
+     "key": "iol_1001",
+     "title": "UPDATE: Police torture claim rocks Jabulile Ntimba murder case as accused alleges forced confession",
+     "url": "https://iol.co.za/news/politics/2026-10-01-update-police-torture-claim-rocks-jabulile-ntimba-murder-case-as-accused-alleges-forced-confession/",
+     "outlet": "IOL",
+     "date": "2026-10-01",
      "access": "read"
+    },
+    {
+     "key": "citizen_1001",
+     "title": "Jabulile Ntimba murder accused denies killing 'cousin', claims police torture to obtain confession",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/jabulile-ntimba-murder-accused-killing-cousin/",
+     "outlet": "The Citizen",
+     "date": "2026-10-01",
+     "access": "snippet"
     }
    ],
    "note": null,
    "partOfDay": null,
    "media": [],
    "caseId": "ntimba"
+  },
+  {
+   "id": "inv-mthombeni-1002",
+   "datetime": "2026-10-02",
+   "precision": "day",
+   "title": "Gauteng commissioner: 3 of 12 cases resolved; persons of interest in 3 Kempton Park cases",
+   "description": "Speaking in Johannesburg, Lt Gen Tommy Mthombeni said three of the 12 cases had been resolved: two accused are going to court (the Ntimba case), the suspect in the July case (Mahlangu) is in custody and due in court this month, and a suspect was arrested in Tzaneen (the Nxumalo case). He said the Tembisa shooting (Mashita) is also regarded as resolved, because the suspect, who was in a romantic relationship with her, is believed to have taken his own life. Of the remaining cases, he said persons of interest have been identified in three Kempton Park cases, and that three of the 12 bodies are not yet identified. A R400,000 reward remains available, and specialised investigators, forensic experts and an investigative psychologist support the team.",
+   "lane": "investigation",
+   "category": "official",
+   "status": "police statement",
+   "location": "Johannesburg (briefing)",
+   "sources": [
+    {
+     "key": "citizen_1002",
+     "title": "Kempton Park murders: Here is the latest from police",
+     "url": "https://www.citizen.co.za/news/kempton-park-murders-here-is-the-latest-from-police/",
+     "outlet": "The Citizen",
+     "date": "2026-10-02",
+     "access": "read"
+    },
+    {
+     "key": "sabc_1002",
+     "title": "Gauteng police resolved three of the 12 women murder cases: Mthombeni",
+     "url": "https://www.sabcnews.com/sabcnews/gauteng-police-resolved-three-of-the-12-women-murder-cases-mthombeni/",
+     "outlet": "SABC News",
+     "date": "2026-10-02",
+     "access": "snippet"
+    }
+   ],
+   "note": "Police did not say which three Kempton Park cases have persons of interest, or which three bodies are unidentified. This site lists two unidentified women (Clayville and Springs) among its 12; the reason for the difference is not known.",
+   "partOfDay": null,
+   "media": [],
+   "caseId": null
+  },
+  {
+   "id": "inv-march-1003",
+   "datetime": "2026-10-03",
+   "precision": "day",
+   "title": "March against gender-based violence in Kempton Park",
+   "description": "Marchers walked from the Kempton Park Civic Centre to Kempton Park Police Station and handed over a memorandum. They called for more police visibility and for communities to keep holding government and police accountable.",
+   "lane": "investigation",
+   "category": "community",
+   "status": "media report",
+   "location": "Kempton Park",
+   "sources": [
+    {
+     "key": "sabc_1003",
+     "title": "Communities must hold authorities accountable: GBVF marchers",
+     "url": "https://www.sabcnews.com/sabcnews/communities-must-hold-authorities-accountable-gbvf-marchers/",
+     "outlet": "SABC News",
+     "date": "2026-10-03",
+     "access": "read"
+    }
+   ],
+   "note": null,
+   "partOfDay": null,
+   "media": [],
+   "caseId": null
+  },
+  {
+   "id": "mjobo-burial",
+   "datetime": "2026-10-04",
+   "precision": "approximate",
+   "title": "Nomfesane Mjobo (42) to be buried near Lusikisiki, Eastern Cape",
+   "description": "SABC reported on the morning of 4 October that she was expected to be laid to rest near Lusikisiki, Eastern Cape, that Sunday. Gauteng officials met her family at OR Tambo International Airport on 30 September, and the provincial Social Development department said it was offering the family psycho-social support.",
+   "lane": "mjobo",
+   "category": "community",
+   "status": "media report",
+   "location": "Near Lusikisiki, Eastern Cape",
+   "sources": [
+    {
+     "key": "sabc_1004",
+     "title": "Third Ekurhuleni murder victim is to be buried in Eastern Cape",
+     "url": "https://www.sabcnews.com/sabcnews/third-ekurhuleni-murder-victim-is-to-be-buried-in-eastern-cape/",
+     "outlet": "SABC News",
+     "date": "2026-10-04",
+     "access": "snippet"
+    }
+   ],
+   "note": "Reported in advance as the expected burial date; a report confirming it took place was not found.",
+   "partOfDay": null,
+   "media": [],
+   "caseId": "mjobo"
   },
   {
    "id": "nxumalo-bail",
@@ -1885,6 +1992,39 @@
    "partOfDay": null,
    "media": [],
    "caseId": "nxumalo"
+  },
+  {
+   "id": "ntimba-bail2",
+   "datetime": "2026-10-12",
+   "precision": "day",
+   "title": "Scheduled: Ntimba case bail proceedings continue",
+   "description": "The two accused are due back in the Boksburg Magistrates' Court on 12 October for their bail proceedings to continue. This date was scheduled as of the latest reports; the outcome is not known here.",
+   "lane": "ntimba",
+   "category": "arrest-court",
+   "status": "scheduled",
+   "location": "Boksburg Magistrates' Court",
+   "sources": [
+    {
+     "key": "iol_1001",
+     "title": "UPDATE: Police torture claim rocks Jabulile Ntimba murder case as accused alleges forced confession",
+     "url": "https://iol.co.za/news/politics/2026-10-01-update-police-torture-claim-rocks-jabulile-ntimba-murder-case-as-accused-alleges-forced-confession/",
+     "outlet": "IOL",
+     "date": "2026-10-01",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1001",
+     "title": "Jabulile Ntimba murder accused denies killing 'cousin', claims police torture to obtain confession",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/jabulile-ntimba-murder-accused-killing-cousin/",
+     "outlet": "The Citizen",
+     "date": "2026-10-01",
+     "access": "snippet"
+    }
+   ],
+   "note": null,
+   "partOfDay": null,
+   "media": [],
+   "caseId": "ntimba"
   }
  ],
  "patterns": {
@@ -2086,7 +2226,7 @@
   ],
   "different": [
    {
-    "text": "Three cases have arrests, and police cite relationship motives in two of them (Mahlangu: partner arrested; Ntimba: 'love triangle' per police). A 12th case (Nhlanzi) involved an estranged husband as a person of interest, and police say it is not linked.",
+    "text": "Three cases have arrests, and police cite relationship motives in two of them (Mahlangu: partner arrested; Ntimba: 'love triangle' per police). A 12th case (Mashita) involved an estranged husband as a person of interest, and police say it is not linked.",
     "sources": [
      {
       "key": "dm_0928",
@@ -2190,7 +2330,7 @@
  "conflicts": [
   {
    "topic": "How many cases?",
-   "text": "The President (29 Sept) said 11 bodies had been found in Ekurhuleni since July. BBC (28 Sept) counts 12, including Boitumelo Nhlanzi, whom police say is not linked. Daily Maverick (28 Sept) lists 13 victims, including the Soweto case and Nhlanzi. Earlier reports gave 5, 8, 9 and 10 as cases were added or found.",
+   "text": "The President (29 Sept) said 11 bodies had been found in Ekurhuleni since July. BBC (28 Sept) counts 12, including Boitumelo Gift Mashita, whom police say is not linked. Daily Maverick (28 Sept) lists 13 victims, including the Soweto case and Mashita. On 2 October the Gauteng police commissioner also spoke of 12 cases, three of them resolved, and said three of the 12 bodies are unidentified (this site lists two unidentified women; police did not say which three). Earlier reports gave 5, 8, 9 and 10 as cases were added or found.",
    "sources": [
     {
      "key": "presidency_0929",
@@ -2231,6 +2371,22 @@
      "outlet": "The South African",
      "date": "2026-09-26",
      "access": "read"
+    },
+    {
+     "key": "citizen_1002",
+     "title": "Kempton Park murders: Here is the latest from police",
+     "url": "https://www.citizen.co.za/news/kempton-park-murders-here-is-the-latest-from-police/",
+     "outlet": "The Citizen",
+     "date": "2026-10-02",
+     "access": "read"
+    },
+    {
+     "key": "sabc_1002",
+     "title": "Gauteng police resolved three of the 12 women murder cases: Mthombeni",
+     "url": "https://www.sabcnews.com/sabcnews/gauteng-police-resolved-three-of-the-12-women-murder-cases-mthombeni/",
+     "outlet": "SABC News",
+     "date": "2026-10-02",
+     "access": "snippet"
     }
    ]
   },
@@ -2332,7 +2488,7 @@
   },
   {
    "topic": "Names and spellings",
-   "text": "Ntimba / 'Timba' (eNCA); Ntombifuthi / 'Ntombifuthu' (IOL); Boitumelo Nhlanzi / 'Boitumelo Gift Mashita' (BBC); Villa Liza / Villa Lisa; Olifantsfontein / 'Olifantsfontain' (BBC).",
+   "text": "Ntimba / 'Timba' (eNCA); Ntombifuthi / 'Ntombifuthu' (IOL); Boitumelo Gift Mashita (police, BBC, TimesLIVE, EWN) / 'Boitumelo Nhlanzi' (early Daily Maverick and IOL reports); Villa Liza / Villa Lisa; Olifantsfontein / 'Olifantsfontain' (BBC).",
    "sources": [
     {
      "key": "bbc_12",

@@ -21,8 +21,9 @@ CASE(id="mahlangu", num=1, name="Busisiwe Mahlangu", age="37", group="arrest",
   found=dict(date="2026-07-15", precision="day", place="Open field (veld) near the R21, Kempton Park", lat=-26.105, lng=28.238, pinPrecision="road/area",
              placeNote="Pin placed in Kempton Park near the R21; the exact spot was not reported. One map published by The Star places this case in Pomona (Kempton Park)."),
   circumstances="Found naked with her hands bound with cable ties (as reported by BBC and IOL). She was the first of the women whose deaths are now part of the Ekurhuleni investigation.",
-  legal="Her partner (boyfriend) was arrested two days later, on 17 July 2026, and remains in custody (BBC, Presidency). The accused has not been named here; he is presumed innocent. On 2 October the Gauteng police commissioner said the suspect in the July case remains in custody and is due to appear in court this month (date not given).",
-  court=[], conflicts=[], sources=["bbc_12","dm_0928","presidency_0929","iol_0928","citizen_1002"])
+  legal="Her partner (boyfriend) was arrested two days later, on 17 July 2026, and remains in custody (BBC, Presidency). The accused has not been named here; he is presumed innocent. On 2 October the Gauteng police commissioner said the suspect in the July case remains in custody and is due to appear in court this month. The Citizen (6 October) reported he is expected back in the Kempton Park Magistrates' Court on 28 October.",
+  court=[dict(date="2026-10-28", text="Expected further appearance, Kempton Park Magistrates' Court", scheduled=True)],
+  conflicts=[], sources=["bbc_12","dm_0928","presidency_0929","iol_0928","citizen_1002","citizen_1006"])
 
 CASE(id="kekana", num=2, name="Itumeleng Kekana", age="32", group="taskteam",
   linkStatus="Under task team investigation. No arrest reported.",
@@ -68,16 +69,17 @@ CASE(id="nkomo", num=5, name="Gracious Nkomo", age="28", group="taskteam",
   court=[], conflicts=["One outlet (joburgetc) and a map in The Star appear to confuse her with the Dawn Park case (Jabulile Ntimba). This site follows SAPS/SAnews, BBC and Daily Maverick (R21, Kempton Park)."],
   sources=["sanews_nkomo","bbc_12","dm_0928","national_0918","national_0916"])
 
-CASE(id="moselakgomo", num=6, name="Elizabeth 'Tsontso' Moselakgomo", age="38", group="taskteam",
-  linkStatus="Under task team investigation. No arrest reported.",
-  statusShort="under task team investigation; no arrest",
+CASE(id="moselakgomo", num=6, name="Elizabeth 'Tsontso' Moselakgomo", age="38", group="arrest",
+  linkStatus="Arrest related to her property: police confirmed one suspect found with an item belonging to her. No murder charge has been brought. Murder investigation continues under the task team.",
+  statusShort="property-related arrest (possession charge expected; no murder charge yet)",
   lastSeen=dict(date="2026-09-09", precision="day", place="Left home for an afternoon/evening run (Kempton Park area; her home suburb is reported inconsistently, so it is not mapped)", lat=None, lng=None),
   found=dict(date="2026-09-12", precision="day", place="Behind a hotel in Rhodesfield, Kempton Park", lat=-26.123, lng=28.229, pinPrecision="suburb",
              placeNote="Found on the evening/night of Saturday 12 September."),
   circumstances="A runner who did not return from her run; her eight-year-old daughter raised the alarm. Found badly bruised and partially clothed. Her family identified her at the Germiston mortuary on 14 September. She was buried in Mpumalanga around 19-20 September. Her disappearance drew wide public attention.",
-  legal="No arrest reported.",
-  court=[], conflicts=["Her home suburb is given as Roseville (News24) and Rhodesfield (The South African)."],
-  sources=["bbc_runner","bbc_12","saps_0914","dm_0928","tsa_0926","news24_timeline"])
+  legal="On 12 October, national police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Moselakgomo. The suspect was expected to appear in the Kempton Park Magistrates' Court the same day on a possible charge of possession of stolen property. Mathe said no murder charge had been brought and investigations were ongoing. Some earlier media reports mentioned four suspects; police confirmed only one arrest. The suspect is presumed innocent and is not named here.",
+  court=[dict(date="2026-10-12", text="Expected appearance, Kempton Park Magistrates' Court (possible possession of stolen property)", scheduled=True)],
+  conflicts=["Her home suburb is given as Roseville (News24) and Rhodesfield (The South African).", "eNCA (12 Oct) reported four suspects arrested over property believed to belong to her; SAPS (Mathe) confirmed only one arrest."],
+  sources=["bbc_runner","bbc_12","saps_0914","dm_0928","tsa_0926","news24_timeline","tsa_1012","iol_1012","citizen_1012","enca_1012","timeslive_1012"])
 
 CASE(id="mathebula", num=7, name="Vutomi Mathebula", age="28", group="taskteam",
   linkStatus="Under task team investigation. No arrest reported.",
@@ -106,25 +108,26 @@ CASE(id="ntimba", num=9, name="Jabulile Ntimba", age="about 30", group="arrest",
   lastSeen=None,
   found=dict(date="2026-09-17", precision="day", place="Open area on Lama Street, Villa Liza, Dawn Park (Boksburg)", lat=-26.326, lng=28.248, pinPrecision="road/area", placeNote="Found on Thursday morning."),
   circumstances="Found partially clothed with a fatal throat injury (as reported).",
-  legal="Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody. Their bail proceedings began on 1 October, when the first accused alleged in an affidavit that police had tortured her into confessing and said she did not kill Ntimba. The court has not tested these allegations. The matter was postponed to 12 October and both remain in custody. They are presumed innocent and are not named on this site.",
+  legal="Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody. Their bail proceedings began on 1 October, when the first accused alleged in an affidavit that police had tortured her into confessing and said she did not kill Ntimba. The court has not tested these allegations. The matter was postponed to 12 October and both remain in custody. As of the morning of 12 October, no outcome of that hearing had been reported in the sources checked for this update. They are presumed innocent and are not named on this site.",
   court=[dict(date="2026-09-21", text="First appearance, Boksburg Magistrates' Court; remanded in custody", scheduled=False),
          dict(date="2026-10-01", text="Bail proceedings begin, Boksburg Magistrates' Court; first accused alleges a forced confession; postponed, both remain in custody", scheduled=False),
          dict(date="2026-10-12", text="Bail proceedings continue, Boksburg Magistrates' Court", scheduled=True)],
   conflicts=["eNCA spells her surname 'Timba'. The suburb is spelled both 'Villa Liza' and 'Villa Lisa'. BBC (26 Sept) says 'three men appeared in court' in one of the earlier cases, which does not match other reports (two women charged, one man released)."],
   sources=["tsa_0924","dm_0928","bbc_12","national_0922","sabc_0920","bbc_10th","iol_1001","citizen_1001"])
 
-CASE(id="nxumalo", num=10, name="Ntombifuthi Nxumalo", age=None, group="arrest",
+CASE(id="nxumalo", num=10, name="Ntombifuthi Nxumalo", age="49", group="arrest",
   linkStatus="Arrest made: a 36-year-old man charged with murder. Gauteng police said it was too early to say whether this case is linked to the others.",
   statusShort="arrest made - man charged with murder (link not established)",
   lastSeen=dict(date="2026-09-25", precision="approximate", time="evening", place="At a tavern with a female friend on Friday night; reportedly left with a man (tavern location not reported)", lat=None, lng=None),
   found=dict(date="2026-09-26", precision="day", place="At/next to Mooifontein Cemetery, Vusimuzi section, Tembisa (Saturday morning)", lat=-26.026, lng=28.206, pinPrecision="section/area",
              placeNote="Pin at Vusimuzi section level; the cemetery's exact position was not verified."),
-  circumstances="Found with serious head injuries; stones were found nearby and the Gauteng commissioner said she may have been stoned (as reported). Residents reported hearing screams at about 23:00 on Friday. Her friend identified her by her clothes. She leaves five children; her family planned a burial in Nongoma, KwaZulu-Natal.",
-  legal="A 36-year-old man was traced to a village in Limpopo and arrested (in Tzaneen, according to the Gauteng police commissioner on 2 October). He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. The State opposes bail and the bail hearing was postponed to 6 October; he remains in custody. He is presumed innocent and is not named on this site.",
+  circumstances="Found with serious head injuries; stones were found nearby and the Gauteng commissioner said she may have been stoned (as reported). Residents reported hearing screams at about 23:00 on Friday. Her friend identified her by her clothes. She leaves five children; her family planned a burial in Nongoma, KwaZulu-Natal. Age reported as 49 (EWN, The Citizen).",
+  legal="A 36-year-old man was traced to a village in Limpopo and arrested (in Tzaneen / Mohlabaneng Village, according to reports). He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. On 6 October the formal bail application did not proceed: the defence asked for more time to consult, and the matter was postponed to 19 October. The State said it was ready to proceed and will oppose bail. He remains in custody. He is presumed innocent and is not named on this site.",
   court=[dict(date="2026-09-29", text="First appearance, Tembisa Magistrates' Court; bail hearing postponed", scheduled=False),
-         dict(date="2026-10-06", text="Bail hearing, Tembisa Magistrates' Court", scheduled=True)],
+         dict(date="2026-10-06", text="Bail application delayed (defence consultation); postponed, remains in custody", scheduled=False),
+         dict(date="2026-10-19", text="Formal bail application, Tembisa Magistrates' Court (State to oppose)", scheduled=True)],
   conflicts=["IOL spells her first name 'Ntombifuthu'.", "Arrest timing: Daily Maverick says Saturday evening (26 Sept); the President's address says Sunday morning (27 Sept)."],
-  sources=["dm_0928","iol_0928","timeslive_0929","bbc_10th","sabc_0926","presidency_0929","bbc_12","citizen_1002"])
+  sources=["dm_0928","iol_0928","timeslive_0929","bbc_10th","sabc_0926","presidency_0929","bbc_12","citizen_1002","ewn_1006","citizen_1006","jac_1006"])
 
 CASE(id="springs", num=11, name="Unidentified woman (Springs)", age=None, group="taskteam",
   linkStatus="The task team responded to the scene. Unidentified. No arrest reported; police have not confirmed a link.",
@@ -172,6 +175,9 @@ E("mahlangu-found","2026-07-15","day","Busisiwe Mahlangu (37) found near the R21
 E("mahlangu-arrest","2026-07-17","day","Partner arrested in Mahlangu case",
   "Two days later police arrested her partner (boyfriend), who remains in custody. Police and the President have said he has not been linked to the other deaths. He is presumed innocent and is not named here.",
   "mahlangu","arrest-court",POL,"Kempton Park",["bbc_12","presidency_0929","dm_0928"])
+E("mahlangu-court-1028","2026-10-28","day","Scheduled: further court appearance in the Mahlangu case",
+  "The Citizen (6 October) reported that the accused in the Mahlangu case is expected to return to the Kempton Park Magistrates' Court on 28 October. He remains in custody. This date was scheduled as of the latest reports; the outcome is not known here.",
+  "mahlangu","arrest-court",SCH,"Kempton Park Magistrates' Court",["citizen_1006","citizen_1002"])
 E("kekana-missing","2026-07-17T19:00","approximate","Itumeleng Kekana (32) goes missing in Kempton Park",
   "According to her brother, a neighbour saw her leave at about 7pm on 17 July, saying she was going to see someone. From 18 July her phone was off. Relatives came to Kempton Park on 19 July and searched police stations, hospitals and mortuaries.",
   "kekana","last-seen",MED,"Kempton Park",["dm_kekana","news24_timeline"],note="Time is approximate (the neighbour's account as relayed by her brother).")
@@ -217,6 +223,9 @@ E("moselakgomo-id","2026-09-14","day","Moselakgomo identified by her family",
 E("moselakgomo-burial","2026-09-20","approximate","Elizabeth Moselakgomo buried in Mpumalanga",
   "She was buried in Mpumalanga on the weekend of 19-20 September.",
   "moselakgomo","community",MED,"Mpumalanga",["tsa_0926","dm_0928"],note="Weekend of 19-20 Sept; the exact day varies between reports.")
+E("moselakgomo-arrest","2026-10-12","day","Suspect arrested with item belonging to Moselakgomo",
+  "National police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Elizabeth Moselakgomo. The suspect was expected to appear in the Kempton Park Magistrates' Court on 12 October on a possible charge of possession of stolen property. Mathe said no murder charge had been brought and investigations were ongoing. Some media reports mentioned four suspects; police confirmed only one arrest. The suspect is presumed innocent and is not named here.",
+  "moselakgomo","arrest-court",POL,"Kempton Park Magistrates' Court",["tsa_1012","iol_1012","citizen_1012","enca_1012","timeslive_1012"],note="eNCA reported four arrests; this entry follows the SAPS confirmation of one.")
 E("mathebula-missing","2026-03-22","day","Vutomi Mathebula (28) last heard from",
   "She told her family she was going shopping at Dragon City, Johannesburg, and was reported missing the next day. Her family later received ransom demands: they paid R3,000 and a further R2,500 was demanded.",
   "mathebula","last-seen",MED,"Johannesburg (stated destination: Dragon City)",["dm_0928","tsa_0926"],note="Dragon City is where she said she was going, not a confirmed sighting.")
@@ -251,7 +260,7 @@ E("ntimba-bail","2026-10-01","day","Ntimba case: bail proceedings begin; accused
   "The two women charged with premeditated murder and defeating the ends of justice appeared in the Boksburg Magistrates' Court for their bail proceedings. In an affidavit, the first accused alleged that police had tortured her into confessing and said she did not kill Ntimba. These allegations have not been tested in court. The matter was postponed to 12 October so the legal teams could prepare documents, and both remain in custody. They are presumed innocent and are not named here.",
   "ntimba","arrest-court",CRT,"Boksburg Magistrates' Court",["iol_1001","citizen_1001"])
 E("ntimba-bail2","2026-10-12","day","Scheduled: Ntimba case bail proceedings continue",
-  "The two accused are due back in the Boksburg Magistrates' Court on 12 October for their bail proceedings to continue. This date was scheduled as of the latest reports; the outcome is not known here.",
+  "The two accused are due back in the Boksburg Magistrates' Court on 12 October for their bail proceedings to continue. As of the morning of 12 October, no outcome of this hearing had been reported in the sources checked for this update.",
   "ntimba","arrest-court",SCH,"Boksburg Magistrates' Court",["iol_1001","citizen_1001"])
 E("nxumalo-tavern","2026-09-25T23:00","approximate","Ntombifuthi Nxumalo seen at a tavern; screams heard",
   "She had been drinking at a tavern with a female friend on Friday night and reportedly left with a man. Residents said they heard screams at about 23:00.",
@@ -265,9 +274,12 @@ E("nxumalo-arrest","2026-09-27","approximate","36-year-old man arrested in Limpo
 E("nxumalo-court","2026-09-29","day","Accused in Nxumalo case appears in court; bail hearing postponed",
   "The man appeared in the Tembisa Magistrates' Court charged with murder. The State opposes bail; the hearing was postponed to 6 October and he remains in custody.",
   "nxumalo","arrest-court",CRT,"Tembisa Magistrates' Court",["timeslive_0929"])
-E("nxumalo-bail","2026-10-06","day","Scheduled: bail hearing in the Nxumalo case",
-  "The bail hearing is scheduled for 6 October in the Tembisa Magistrates' Court.",
-  "nxumalo","arrest-court",SCH,"Tembisa Magistrates' Court",["timeslive_0929"])
+E("nxumalo-bail","2026-10-06","day","Nxumalo bail application delayed; postponed to 19 October",
+  "The accused appeared in the Tembisa Magistrates' Court for a bail-related hearing. The State said it was ready to proceed and would oppose bail. The defence asked for more time to consult, and the formal bail application was postponed to 19 October. He remains in custody. He is presumed innocent and is not named here.",
+  "nxumalo","arrest-court",CRT,"Tembisa Magistrates' Court",["ewn_1006","citizen_1006","jac_1006"])
+E("nxumalo-bail2","2026-10-19","day","Scheduled: formal bail application in the Nxumalo case",
+  "The formal bail application is scheduled for 19 October in the Tembisa Magistrates' Court. The State has said it will oppose bail. This date was scheduled as of the latest reports; the outcome is not known here.",
+  "nxumalo","arrest-court",SCH,"Tembisa Magistrates' Court",["ewn_1006","citizen_1006","jac_1006"])
 E("springs-found","2026-09-27T12:00","approximate","Unidentified woman found near Rhokana Road, Springs",
   "A patrolling security company found a semi-naked body in open veld near Rhokana Road, Springs, close to a railway line. IOL reports she appeared to have been strangled. The task team, Crime Intelligence and the Investigative Psychology Section attended.",
   "springs","found",POL,"Springs",["ewn_0927","iol_0928","dm_0928"])
@@ -395,6 +407,8 @@ M("m-kekana","tribute / profile","Daily Maverick: a brother's search for Itumele
 M("m-mjobo","tribute / profile","eNCA: Nomfesane Mjobo's family and friends honour her memory","enca_mjobo","Vigil coverage. May contain photos (not embedded here).",["mjobo-vigil"])
 M("m-runner","tribute / profile","BBC: body of missing runner found","bbc_runner","Report on Elizabeth Moselakgomo's disappearance and discovery.",["moselakgomo-found"])
 M("m-court","court coverage","TimesLIVE: accused to remain in custody as bail date postponed","timeslive_0929","29 Sept court appearance in the Nxumalo case. Note: this report names the accused; this site does not.",["nxumalo-court"])
+M("m-nxumalo-bail","court coverage","EWN / Citizen: Nxumalo bail application postponed to 19 October","ewn_1006","6 Oct appearance: defence asked for more consultation time; State to oppose bail. Related Citizen report names the accused; this site does not.",["nxumalo-bail"])
+M("m-moselakgomo-arrest","police / court coverage","SAPS confirms arrest linked to Moselakgomo property","tsa_1012","12 Oct: one suspect arrested with an item belonging to Moselakgomo; possible possession charge; no murder charge yet (Mathe / SAPS).",["moselakgomo-arrest"])
 M("m-cnn","international coverage","CNN: 'Women are terrified'","cnn_0918","International coverage including the reaction to police safety advice.",["inv-backlash"])
 M("m-wapo","international coverage","Washington Post: nine bodies raise fears of serial murder, femicide","wapo_0918","International coverage (18 Sept). Read via search snippet only (paywall).",[])
 M("m-boundary","dataset","Ekurhuleni municipal boundary (geoBoundaries)","geob","Public boundary data used for the map outline (simplified). CC BY 3.0 IGO.",[])
@@ -467,7 +481,7 @@ for e in EV:
 for c in CASES:
     c["events"] = [e["id"] for e in sorted(EV, key=lambda x: x["datetime"]) if e["lane"] == c["id"]]
 EV.sort(key=lambda e: (e["datetime"][:16], e["id"]))
-meta = {"generated": "2026-10-05", "asOf": "2026-10-05", "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
+meta = {"generated": "2026-10-12", "asOf": "2026-10-12", "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
         "eventCount": len(EV), "caseCount": len(CASES), "distance": DIST, "intervals": INTERVALS}
 DATA = {"meta": meta, "cases": CASES, "events": EV, "patterns": PATTERNS, "conflicts": CONFLICTS}
 MED_ = {"media": MEDIA, "notPublic": NOT_PUBLIC}

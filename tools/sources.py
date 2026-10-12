@@ -40,6 +40,14 @@ S = {
  "sabc_1004": ("Third Ekurhuleni murder victim is to be buried in Eastern Cape", "https://www.sabcnews.com/sabcnews/third-ekurhuleni-murder-victim-is-to-be-buried-in-eastern-cape/", "SABC News", "2026-10-04", "snippet"),
  "timeslive_0928": ("Thembisa woman was killed by someone known to her, says her family", "https://www.timeslive.co.za/news/south-africa/2026-09-28-thembisa-woman-was-killed-by-someone-known-to-her-says-her-family/", "TimesLIVE", "2026-09-28", "snippet"),
  "ewn_0929": ("Cops probing death of man linked to the murder of Tembisa woman", "https://www.ewn.co.za/2026/09/29/cops-probing-death-of-man-linked-to-the-murder-of-tembisa-woman", "EWN", "2026-09-29", "snippet"),
+ "tsa_1012": ("Kempton Park runner's murder: What we know about the arrest", "https://www.thesouthafrican.com/news/kempton-park-runners-murder-what-we-know-about-the-arrest/", "The South African", "2026-10-12", "read"),
+ "iol_1012": ("Breakthrough in Elizabeth Moselakgomo's murder investigation", "https://iol.co.za/news/crime-and-courts/breakthrough-in-elizabeth-moselakgomos-murder-investigation/", "IOL", "2026-10-12", "read"),
+ "citizen_1012": ("Suspect found with property of murdered jogger Elizabeth 'Tsontso' Moselakgomo", "https://www.citizen.co.za/news/suspect-found-with-property-of-murdered-jogger-elizabeth-tsontso-moselakgomo/", "The Citizen", "2026-10-12", "read"),
+ "enca_1012": ("Breakthrough in Elizabeth 'Tsontso' Moselakgomo case", "https://www.enca.com/news-top-stories/breakthrough-elizabeth-tsontso-moselakgomo-case", "eNCA", "2026-10-12", "read"),
+ "timeslive_1012": ("BREAKING | Suspect arrested in possession of item belonging to Elizabeth Moselakgomo", "https://www.timeslive.co.za/news/south-africa/2026-10-12-breaking-suspect-arrested-in-possession-of-item-belonging-to-elizabeth-moselakgomo/", "TimesLIVE", "2026-10-12", "snippet"),
+ "ewn_1006": ("State to oppose bail for man accused of killing Tembisa woman, leaving body in cemetery", "https://www.ewn.co.za/2026/10/06/state-to-oppose-bail-for-man-accused-of-killing-tembisa-woman-leaving-body-in-cemetery", "EWN", "2026-10-06", "read"),
+ "citizen_1006": ("'Only person who has rights here is the killer': Ntombifuthi Nxumalo family 'hurt' over possible bail", "https://www.citizen.co.za/news/south-africa/courts/ntombifuthi-nxumalo-murder-case-bail/", "The Citizen", "2026-10-06", "read"),
+ "jac_1006": ("Bail application delayed for alleged Mooifontein Cemetery murderer", "https://www.jacarandafm.com/news/news/bail-delayed-alleged-mooifontein-cemetery-murderer/", "Jacaranda FM", "2026-10-06", "snippet"),
  "geob": ("geoBoundaries gbOpen ZAF ADM2 (South Africa districts/metros), simplified GeoJSON", "https://www.geoboundaries.org/api/current/gbOpen/ZAF/ADM2/", "geoBoundaries (OCHA ROSEA / Municipal Demarcation Board)", "2020 boundaries, accessed 2026-09-30", "read"),
 }
 

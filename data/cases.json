@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-10-05",
-  "asOf": "2026-10-05",
+  "generated": "2026-10-12",
+  "asOf": "2026-10-12",
   "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
-  "eventCount": 54,
+  "eventCount": 57,
   "caseCount": 13,
   "distance": {
    "center": "Kempton Park centre (approx. -26.096, 28.234)",
@@ -129,8 +129,14 @@
     "kmFromKemptonPark": 1.0
    },
    "circumstances": "Found naked with her hands bound with cable ties (as reported by BBC and IOL). She was the first of the women whose deaths are now part of the Ekurhuleni investigation.",
-   "legal": "Her partner (boyfriend) was arrested two days later, on 17 July 2026, and remains in custody (BBC, Presidency). The accused has not been named here; he is presumed innocent. On 2 October the Gauteng police commissioner said the suspect in the July case remains in custody and is due to appear in court this month (date not given).",
-   "court": [],
+   "legal": "Her partner (boyfriend) was arrested two days later, on 17 July 2026, and remains in custody (BBC, Presidency). The accused has not been named here; he is presumed innocent. On 2 October the Gauteng police commissioner said the suspect in the July case remains in custody and is due to appear in court this month. The Citizen (6 October) reported he is expected back in the Kempton Park Magistrates' Court on 28 October.",
+   "court": [
+    {
+     "date": "2026-10-28",
+     "text": "Expected further appearance, Kempton Park Magistrates' Court",
+     "scheduled": true
+    }
+   ],
    "conflicts": [],
    "sources": [
     {
@@ -172,11 +178,20 @@
      "outlet": "The Citizen",
      "date": "2026-10-02",
      "access": "read"
+    },
+    {
+     "key": "citizen_1006",
+     "title": "'Only person who has rights here is the killer': Ntombifuthi Nxumalo family 'hurt' over possible bail",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/ntombifuthi-nxumalo-murder-case-bail/",
+     "outlet": "The Citizen",
+     "date": "2026-10-06",
+     "access": "read"
     }
    ],
    "events": [
     "mahlangu-found",
-    "mahlangu-arrest"
+    "mahlangu-arrest",
+    "mahlangu-court-1028"
    ]
   },
   {
@@ -485,9 +500,9 @@
    "num": 6,
    "name": "Elizabeth 'Tsontso' Moselakgomo",
    "age": "38",
-   "group": "taskteam",
-   "linkStatus": "Under task team investigation. No arrest reported.",
-   "statusShort": "under task team investigation; no arrest",
+   "group": "arrest",
+   "linkStatus": "Arrest related to her property: police confirmed one suspect found with an item belonging to her. No murder charge has been brought. Murder investigation continues under the task team.",
+   "statusShort": "property-related arrest (possession charge expected; no murder charge yet)",
    "lastSeen": {
     "date": "2026-09-09",
     "precision": "day",
@@ -506,10 +521,17 @@
     "kmFromKemptonPark": 3.0
    },
    "circumstances": "A runner who did not return from her run; her eight-year-old daughter raised the alarm. Found badly bruised and partially clothed. Her family identified her at the Germiston mortuary on 14 September. She was buried in Mpumalanga around 19-20 September. Her disappearance drew wide public attention.",
-   "legal": "No arrest reported.",
-   "court": [],
+   "legal": "On 12 October, national police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Moselakgomo. The suspect was expected to appear in the Kempton Park Magistrates' Court the same day on a possible charge of possession of stolen property. Mathe said no murder charge had been brought and investigations were ongoing. Some earlier media reports mentioned four suspects; police confirmed only one arrest. The suspect is presumed innocent and is not named here.",
+   "court": [
+    {
+     "date": "2026-10-12",
+     "text": "Expected appearance, Kempton Park Magistrates' Court (possible possession of stolen property)",
+     "scheduled": true
+    }
+   ],
    "conflicts": [
-    "Her home suburb is given as Roseville (News24) and Rhodesfield (The South African)."
+    "Her home suburb is given as Roseville (News24) and Rhodesfield (The South African).",
+    "eNCA (12 Oct) reported four suspects arrested over property believed to belong to her; SAPS (Mathe) confirmed only one arrest."
    ],
    "sources": [
     {
@@ -559,6 +581,46 @@
      "outlet": "News24",
      "date": "2026-09-18",
      "access": "snippet"
+    },
+    {
+     "key": "tsa_1012",
+     "title": "Kempton Park runner's murder: What we know about the arrest",
+     "url": "https://www.thesouthafrican.com/news/kempton-park-runners-murder-what-we-know-about-the-arrest/",
+     "outlet": "The South African",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "iol_1012",
+     "title": "Breakthrough in Elizabeth Moselakgomo's murder investigation",
+     "url": "https://iol.co.za/news/crime-and-courts/breakthrough-in-elizabeth-moselakgomos-murder-investigation/",
+     "outlet": "IOL",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1012",
+     "title": "Suspect found with property of murdered jogger Elizabeth 'Tsontso' Moselakgomo",
+     "url": "https://www.citizen.co.za/news/suspect-found-with-property-of-murdered-jogger-elizabeth-tsontso-moselakgomo/",
+     "outlet": "The Citizen",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "enca_1012",
+     "title": "Breakthrough in Elizabeth 'Tsontso' Moselakgomo case",
+     "url": "https://www.enca.com/news-top-stories/breakthrough-elizabeth-tsontso-moselakgomo-case",
+     "outlet": "eNCA",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "timeslive_1012",
+     "title": "BREAKING | Suspect arrested in possession of item belonging to Elizabeth Moselakgomo",
+     "url": "https://www.timeslive.co.za/news/south-africa/2026-10-12-breaking-suspect-arrested-in-possession-of-item-belonging-to-elizabeth-moselakgomo/",
+     "outlet": "TimesLIVE",
+     "date": "2026-10-12",
+     "access": "snippet"
     }
    ],
    "lastSeenToFound": {
@@ -568,7 +630,8 @@
     "moselakgomo-missing",
     "moselakgomo-found",
     "moselakgomo-id",
-    "moselakgomo-burial"
+    "moselakgomo-burial",
+    "moselakgomo-arrest"
    ]
   },
   {
@@ -757,7 +820,7 @@
     "kmFromKemptonPark": 26.0
    },
    "circumstances": "Found partially clothed with a fatal throat injury (as reported).",
-   "legal": "Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody. Their bail proceedings began on 1 October, when the first accused alleged in an affidavit that police had tortured her into confessing and said she did not kill Ntimba. The court has not tested these allegations. The matter was postponed to 12 October and both remain in custody. They are presumed innocent and are not named on this site.",
+   "legal": "Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody. Their bail proceedings began on 1 October, when the first accused alleged in an affidavit that police had tortured her into confessing and said she did not kill Ntimba. The court has not tested these allegations. The matter was postponed to 12 October and both remain in custody. As of the morning of 12 October, no outcome of that hearing had been reported in the sources checked for this update. They are presumed innocent and are not named on this site.",
    "court": [
     {
      "date": "2026-09-21",
@@ -856,7 +919,7 @@
    "id": "nxumalo",
    "num": 10,
    "name": "Ntombifuthi Nxumalo",
-   "age": null,
+   "age": "49",
    "group": "arrest",
    "linkStatus": "Arrest made: a 36-year-old man charged with murder. Gauteng police said it was too early to say whether this case is linked to the others.",
    "statusShort": "arrest made - man charged with murder (link not established)",
@@ -878,8 +941,8 @@
     "placeNote": "Pin at Vusimuzi section level; the cemetery's exact position was not verified.",
     "kmFromKemptonPark": 8.0
    },
-   "circumstances": "Found with serious head injuries; stones were found nearby and the Gauteng commissioner said she may have been stoned (as reported). Residents reported hearing screams at about 23:00 on Friday. Her friend identified her by her clothes. She leaves five children; her family planned a burial in Nongoma, KwaZulu-Natal.",
-   "legal": "A 36-year-old man was traced to a village in Limpopo and arrested (in Tzaneen, according to the Gauteng police commissioner on 2 October). He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. The State opposes bail and the bail hearing was postponed to 6 October; he remains in custody. He is presumed innocent and is not named on this site.",
+   "circumstances": "Found with serious head injuries; stones were found nearby and the Gauteng commissioner said she may have been stoned (as reported). Residents reported hearing screams at about 23:00 on Friday. Her friend identified her by her clothes. She leaves five children; her family planned a burial in Nongoma, KwaZulu-Natal. Age reported as 49 (EWN, The Citizen).",
+   "legal": "A 36-year-old man was traced to a village in Limpopo and arrested (in Tzaneen / Mohlabaneng Village, according to reports). He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. On 6 October the formal bail application did not proceed: the defence asked for more time to consult, and the matter was postponed to 19 October. The State said it was ready to proceed and will oppose bail. He remains in custody. He is presumed innocent and is not named on this site.",
    "court": [
     {
      "date": "2026-09-29",
@@ -888,7 +951,12 @@
     },
     {
      "date": "2026-10-06",
-     "text": "Bail hearing, Tembisa Magistrates' Court",
+     "text": "Bail application delayed (defence consultation); postponed, remains in custody",
+     "scheduled": false
+    },
+    {
+     "date": "2026-10-19",
+     "text": "Formal bail application, Tembisa Magistrates' Court (State to oppose)",
      "scheduled": true
     }
    ],
@@ -960,6 +1028,30 @@
      "outlet": "The Citizen",
      "date": "2026-10-02",
      "access": "read"
+    },
+    {
+     "key": "ewn_1006",
+     "title": "State to oppose bail for man accused of killing Tembisa woman, leaving body in cemetery",
+     "url": "https://www.ewn.co.za/2026/10/06/state-to-oppose-bail-for-man-accused-of-killing-tembisa-woman-leaving-body-in-cemetery",
+     "outlet": "EWN",
+     "date": "2026-10-06",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1006",
+     "title": "'Only person who has rights here is the killer': Ntombifuthi Nxumalo family 'hurt' over possible bail",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/ntombifuthi-nxumalo-murder-case-bail/",
+     "outlet": "The Citizen",
+     "date": "2026-10-06",
+     "access": "read"
+    },
+    {
+     "key": "jac_1006",
+     "title": "Bail application delayed for alleged Mooifontein Cemetery murderer",
+     "url": "https://www.jacarandafm.com/news/news/bail-delayed-alleged-mooifontein-cemetery-murderer/",
+     "outlet": "Jacaranda FM",
+     "date": "2026-10-06",
+     "access": "snippet"
     }
    ],
    "lastSeenToFound": {
@@ -970,7 +1062,8 @@
     "nxumalo-found",
     "nxumalo-arrest",
     "nxumalo-court",
-    "nxumalo-bail"
+    "nxumalo-bail",
+    "nxumalo-bail2"
    ]
   },
   {

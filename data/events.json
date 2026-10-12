@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-10-05",
-  "asOf": "2026-10-05",
+  "generated": "2026-10-12",
+  "asOf": "2026-10-12",
   "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
-  "eventCount": 54,
+  "eventCount": 57,
   "caseCount": 13,
   "distance": {
    "center": "Kempton Park centre (approx. -26.096, 28.234)",
@@ -1972,33 +1972,110 @@
    "id": "nxumalo-bail",
    "datetime": "2026-10-06",
    "precision": "day",
-   "title": "Scheduled: bail hearing in the Nxumalo case",
-   "description": "The bail hearing is scheduled for 6 October in the Tembisa Magistrates' Court.",
+   "title": "Nxumalo bail application delayed; postponed to 19 October",
+   "description": "The accused appeared in the Tembisa Magistrates' Court for a bail-related hearing. The State said it was ready to proceed and would oppose bail. The defence asked for more time to consult, and the formal bail application was postponed to 19 October. He remains in custody. He is presumed innocent and is not named here.",
    "lane": "nxumalo",
    "category": "arrest-court",
-   "status": "scheduled",
+   "status": "court / charges",
    "location": "Tembisa Magistrates' Court",
    "sources": [
     {
-     "key": "timeslive_0929",
-     "title": "Ekurhuleni murder accused to remain in custody as bail date postponed",
-     "url": "https://www.timeslive.co.za/news/south-africa/2026-09-29-ekurhuleni-murder-accused-to-remain-in-custody-as-bail-date-postponed/",
-     "outlet": "TimesLIVE",
-     "date": "2026-09-29",
+     "key": "ewn_1006",
+     "title": "State to oppose bail for man accused of killing Tembisa woman, leaving body in cemetery",
+     "url": "https://www.ewn.co.za/2026/10/06/state-to-oppose-bail-for-man-accused-of-killing-tembisa-woman-leaving-body-in-cemetery",
+     "outlet": "EWN",
+     "date": "2026-10-06",
      "access": "read"
+    },
+    {
+     "key": "citizen_1006",
+     "title": "'Only person who has rights here is the killer': Ntombifuthi Nxumalo family 'hurt' over possible bail",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/ntombifuthi-nxumalo-murder-case-bail/",
+     "outlet": "The Citizen",
+     "date": "2026-10-06",
+     "access": "read"
+    },
+    {
+     "key": "jac_1006",
+     "title": "Bail application delayed for alleged Mooifontein Cemetery murderer",
+     "url": "https://www.jacarandafm.com/news/news/bail-delayed-alleged-mooifontein-cemetery-murderer/",
+     "outlet": "Jacaranda FM",
+     "date": "2026-10-06",
+     "access": "snippet"
     }
    ],
    "note": null,
    "partOfDay": null,
-   "media": [],
+   "media": [
+    "m-nxumalo-bail"
+   ],
    "caseId": "nxumalo"
+  },
+  {
+   "id": "moselakgomo-arrest",
+   "datetime": "2026-10-12",
+   "precision": "day",
+   "title": "Suspect arrested with item belonging to Moselakgomo",
+   "description": "National police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Elizabeth Moselakgomo. The suspect was expected to appear in the Kempton Park Magistrates' Court on 12 October on a possible charge of possession of stolen property. Mathe said no murder charge had been brought and investigations were ongoing. Some media reports mentioned four suspects; police confirmed only one arrest. The suspect is presumed innocent and is not named here.",
+   "lane": "moselakgomo",
+   "category": "arrest-court",
+   "status": "police statement",
+   "location": "Kempton Park Magistrates' Court",
+   "sources": [
+    {
+     "key": "tsa_1012",
+     "title": "Kempton Park runner's murder: What we know about the arrest",
+     "url": "https://www.thesouthafrican.com/news/kempton-park-runners-murder-what-we-know-about-the-arrest/",
+     "outlet": "The South African",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "iol_1012",
+     "title": "Breakthrough in Elizabeth Moselakgomo's murder investigation",
+     "url": "https://iol.co.za/news/crime-and-courts/breakthrough-in-elizabeth-moselakgomos-murder-investigation/",
+     "outlet": "IOL",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1012",
+     "title": "Suspect found with property of murdered jogger Elizabeth 'Tsontso' Moselakgomo",
+     "url": "https://www.citizen.co.za/news/suspect-found-with-property-of-murdered-jogger-elizabeth-tsontso-moselakgomo/",
+     "outlet": "The Citizen",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "enca_1012",
+     "title": "Breakthrough in Elizabeth 'Tsontso' Moselakgomo case",
+     "url": "https://www.enca.com/news-top-stories/breakthrough-elizabeth-tsontso-moselakgomo-case",
+     "outlet": "eNCA",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "timeslive_1012",
+     "title": "BREAKING | Suspect arrested in possession of item belonging to Elizabeth Moselakgomo",
+     "url": "https://www.timeslive.co.za/news/south-africa/2026-10-12-breaking-suspect-arrested-in-possession-of-item-belonging-to-elizabeth-moselakgomo/",
+     "outlet": "TimesLIVE",
+     "date": "2026-10-12",
+     "access": "snippet"
+    }
+   ],
+   "note": "eNCA reported four arrests; this entry follows the SAPS confirmation of one.",
+   "partOfDay": null,
+   "media": [
+    "m-moselakgomo-arrest"
+   ],
+   "caseId": "moselakgomo"
   },
   {
    "id": "ntimba-bail2",
    "datetime": "2026-10-12",
    "precision": "day",
    "title": "Scheduled: Ntimba case bail proceedings continue",
-   "description": "The two accused are due back in the Boksburg Magistrates' Court on 12 October for their bail proceedings to continue. This date was scheduled as of the latest reports; the outcome is not known here.",
+   "description": "The two accused are due back in the Boksburg Magistrates' Court on 12 October for their bail proceedings to continue. As of the morning of 12 October, no outcome of this hearing had been reported in the sources checked for this update.",
    "lane": "ntimba",
    "category": "arrest-court",
    "status": "scheduled",
@@ -2025,6 +2102,80 @@
    "partOfDay": null,
    "media": [],
    "caseId": "ntimba"
+  },
+  {
+   "id": "nxumalo-bail2",
+   "datetime": "2026-10-19",
+   "precision": "day",
+   "title": "Scheduled: formal bail application in the Nxumalo case",
+   "description": "The formal bail application is scheduled for 19 October in the Tembisa Magistrates' Court. The State has said it will oppose bail. This date was scheduled as of the latest reports; the outcome is not known here.",
+   "lane": "nxumalo",
+   "category": "arrest-court",
+   "status": "scheduled",
+   "location": "Tembisa Magistrates' Court",
+   "sources": [
+    {
+     "key": "ewn_1006",
+     "title": "State to oppose bail for man accused of killing Tembisa woman, leaving body in cemetery",
+     "url": "https://www.ewn.co.za/2026/10/06/state-to-oppose-bail-for-man-accused-of-killing-tembisa-woman-leaving-body-in-cemetery",
+     "outlet": "EWN",
+     "date": "2026-10-06",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1006",
+     "title": "'Only person who has rights here is the killer': Ntombifuthi Nxumalo family 'hurt' over possible bail",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/ntombifuthi-nxumalo-murder-case-bail/",
+     "outlet": "The Citizen",
+     "date": "2026-10-06",
+     "access": "read"
+    },
+    {
+     "key": "jac_1006",
+     "title": "Bail application delayed for alleged Mooifontein Cemetery murderer",
+     "url": "https://www.jacarandafm.com/news/news/bail-delayed-alleged-mooifontein-cemetery-murderer/",
+     "outlet": "Jacaranda FM",
+     "date": "2026-10-06",
+     "access": "snippet"
+    }
+   ],
+   "note": null,
+   "partOfDay": null,
+   "media": [],
+   "caseId": "nxumalo"
+  },
+  {
+   "id": "mahlangu-court-1028",
+   "datetime": "2026-10-28",
+   "precision": "day",
+   "title": "Scheduled: further court appearance in the Mahlangu case",
+   "description": "The Citizen (6 October) reported that the accused in the Mahlangu case is expected to return to the Kempton Park Magistrates' Court on 28 October. He remains in custody. This date was scheduled as of the latest reports; the outcome is not known here.",
+   "lane": "mahlangu",
+   "category": "arrest-court",
+   "status": "scheduled",
+   "location": "Kempton Park Magistrates' Court",
+   "sources": [
+    {
+     "key": "citizen_1006",
+     "title": "'Only person who has rights here is the killer': Ntombifuthi Nxumalo family 'hurt' over possible bail",
+     "url": "https://www.citizen.co.za/news/south-africa/courts/ntombifuthi-nxumalo-murder-case-bail/",
+     "outlet": "The Citizen",
+     "date": "2026-10-06",
+     "access": "read"
+    },
+    {
+     "key": "citizen_1002",
+     "title": "Kempton Park murders: Here is the latest from police",
+     "url": "https://www.citizen.co.za/news/kempton-park-murders-here-is-the-latest-from-police/",
+     "outlet": "The Citizen",
+     "date": "2026-10-02",
+     "access": "read"
+    }
+   ],
+   "note": null,
+   "partOfDay": null,
+   "media": [],
+   "caseId": "mahlangu"
   }
  ],
  "patterns": {

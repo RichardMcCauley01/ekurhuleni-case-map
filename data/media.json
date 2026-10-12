@@ -218,6 +218,30 @@
    ]
   },
   {
+   "id": "m-nxumalo-bail",
+   "type": "court coverage",
+   "title": "EWN / Citizen: Nxumalo bail application postponed to 19 October",
+   "outlet": "EWN",
+   "date": "2026-10-06",
+   "url": "https://www.ewn.co.za/2026/10/06/state-to-oppose-bail-for-man-accused-of-killing-tembisa-woman-leaving-body-in-cemetery",
+   "description": "6 Oct appearance: defence asked for more consultation time; State to oppose bail. Related Citizen report names the accused; this site does not.",
+   "events": [
+    "nxumalo-bail"
+   ]
+  },
+  {
+   "id": "m-moselakgomo-arrest",
+   "type": "police / court coverage",
+   "title": "SAPS confirms arrest linked to Moselakgomo property",
+   "outlet": "The South African",
+   "date": "2026-10-12",
+   "url": "https://www.thesouthafrican.com/news/kempton-park-runners-murder-what-we-know-about-the-arrest/",
+   "description": "12 Oct: one suspect arrested with an item belonging to Moselakgomo; possible possession charge; no murder charge yet (Mathe / SAPS).",
+   "events": [
+    "moselakgomo-arrest"
+   ]
+  },
+  {
    "id": "m-cnn",
    "type": "international coverage",
    "title": "CNN: 'Women are terrified'",

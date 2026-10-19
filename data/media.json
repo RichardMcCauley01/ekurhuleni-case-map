@@ -236,9 +236,36 @@
    "outlet": "The South African",
    "date": "2026-10-12",
    "url": "https://www.thesouthafrican.com/news/kempton-park-runners-murder-what-we-know-about-the-arrest/",
-   "description": "12 Oct: one suspect arrested with an item belonging to Moselakgomo; possible possession charge; no murder charge yet (Mathe / SAPS).",
+   "description": "12 Oct (morning): one suspect arrested with an item belonging to Moselakgomo; possible possession charge; no murder charge (Mathe / SAPS).",
    "events": [
     "moselakgomo-arrest"
+   ]
+  },
+  {
+   "id": "m-npa-smartwatch",
+   "type": "official document",
+   "title": "NPA: three accused in court over Moselakgomo's smartwatch",
+   "outlet": "National Prosecuting Authority (NPA)",
+   "date": "2026-10-13",
+   "url": "https://www.npa.gov.za/media/three-accused-appeared-court-connection-deceased-womans-smartwatch",
+   "description": "NPA statement (13 Oct) on the 12 Oct appearance: charges, the State's allegations, and the postponement to 19 Oct. Note: it names the accused; this site does not.",
+   "events": [
+    "moselakgomo-court",
+    "moselakgomo-court-1019"
+   ]
+  },
+  {
+   "id": "m-dm-smartwatch",
+   "type": "court coverage",
+   "title": "Daily Maverick: suspects in court, but search for Moselakgomo's killer continues",
+   "outlet": "Daily Maverick",
+   "date": "2026-10-13",
+   "url": "https://www.dailymaverick.co.za/article/2026-10-12-ekurhuleni/",
+   "description": "13 Oct report on the provisional charge sheet and bail outcomes; also summarises the other court cases. Names the accused; this site does not. Contains a family-supplied photo (not embedded here).",
+   "events": [
+    "moselakgomo-court",
+    "ntimba-bail2",
+    "nxumalo-bail2"
    ]
   },
   {

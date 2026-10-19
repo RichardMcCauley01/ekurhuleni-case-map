@@ -38,7 +38,7 @@ function statusClass(s){ return STATUS_CLS[s] || 's-media'; }
 function statusGroup(s){ return STATUS_GRP[s] || 'media'; }
 function badge(s){ return '<span class="badge ' + statusClass(s) + '">' + esc(s) + '</span>'; }
 function caseBadge(c){ return '<span class="badge g-' + c.group + '">' + esc(c.statusShort) + '</span>'; }
-const GROUP_LABEL = {taskteam:'Task team case, no arrest', arrest:'Arrest made', other:'Other (not task team / outside Ekurhuleni)'};
+const GROUP_LABEL = {taskteam:'Task team case, no murder arrest', arrest:'Murder arrest made', other:'Other (not task team / outside Ekurhuleni)'};
 const CAT_LABEL = {'last-seen':'Last seen / missing','found':'Body found','identified':'Identification','arrest-court':'Arrest & court','official':'Police & officials','expert':'Expert / analysis','community':'Community & family'};
 function srcLink(s){ return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.title) + '</a> <span class="small">(' + esc(s.outlet) + (s.date ? ', ' + esc(s.date) : '') + (s.access === 'snippet' ? ', snippet' : '') + ')</span>'; }
 function sourcesHTML(list){ return '<ul class="srcs">' + list.map(s => '<li>' + srcLink(s) + '</li>').join('') + '</ul>'; }

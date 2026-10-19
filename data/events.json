@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-10-12",
-  "asOf": "2026-10-12",
+  "generated": "2026-10-19",
+  "asOf": "2026-10-19",
   "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
-  "eventCount": 57,
+  "eventCount": 60,
   "caseCount": 13,
   "distance": {
    "center": "Kempton Park centre (approx. -26.096, 28.234)",
@@ -2015,12 +2015,12 @@
    "id": "moselakgomo-arrest",
    "datetime": "2026-10-12",
    "precision": "day",
-   "title": "Suspect arrested with item belonging to Moselakgomo",
-   "description": "National police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Elizabeth Moselakgomo. The suspect was expected to appear in the Kempton Park Magistrates' Court on 12 October on a possible charge of possession of stolen property. Mathe said no murder charge had been brought and investigations were ongoing. Some media reports mentioned four suspects; police confirmed only one arrest. The suspect is presumed innocent and is not named here.",
+   "title": "SAPS confirms arrest over item belonging to Moselakgomo",
+   "description": "On the morning of 12 October, national police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Elizabeth Moselakgomo, and was expected in the Kempton Park Magistrates' Court that day on a possible charge of possession of stolen property. Mathe said no murder charge had been brought and investigations were ongoing. The suspect is presumed innocent and is not named here.",
    "lane": "moselakgomo",
    "category": "arrest-court",
    "status": "police statement",
-   "location": "Kempton Park Magistrates' Court",
+   "location": "Kempton Park",
    "sources": [
     {
      "key": "tsa_1012",
@@ -2063,10 +2063,78 @@
      "access": "snippet"
     }
    ],
-   "note": "eNCA reported four arrests; this entry follows the SAPS confirmation of one.",
-   "partOfDay": null,
+   "note": "eNCA reported four arrests that morning; SAPS confirmed one. Three men appeared in court that afternoon (next entry).",
+   "partOfDay": "morning",
    "media": [
     "m-moselakgomo-arrest"
+   ],
+   "caseId": "moselakgomo"
+  },
+  {
+   "id": "moselakgomo-court",
+   "datetime": "2026-10-12",
+   "precision": "day",
+   "title": "Three men in court over Moselakgomo's smartwatch; no murder charge",
+   "description": "Three men appeared in the Kempton Park Magistrates' Court in connection with the alleged theft, possession and disposal of her Garmin smartwatch. According to the NPA, they face charges of theft and money laundering, with alternative charges of possessing or receiving stolen property; one, who ran a second-hand goods shop in Kempton Park, also faces Second-Hand Goods Act charges. The State alleges the watch was bought for R900 from an unidentified person less than 24 hours after she was last seen, re-registered to another account on 10 September after her profile was erased, and resold for R4,000 via social media. A fourth person who bought it was not charged, for lack of evidence. Two men were granted bail of R10,000 each (the State did not oppose); the third remains in custody, with his bail application postponed to 19 October while his immigration status is verified. None is charged with her murder; police say that investigation continues. The accused are presumed innocent and are not named here.",
+   "lane": "moselakgomo",
+   "category": "arrest-court",
+   "status": "court / charges",
+   "location": "Kempton Park Magistrates' Court",
+   "sources": [
+    {
+     "key": "npa_1013",
+     "title": "Three accused appeared in court in connection with deceased woman's smartwatch (NPA media statement)",
+     "url": "https://www.npa.gov.za/media/three-accused-appeared-court-connection-deceased-womans-smartwatch",
+     "outlet": "National Prosecuting Authority (NPA)",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "sowetan_1012",
+     "title": "Two men in 'Tsontso' case granted bail, third held in custody",
+     "url": "https://www.sowetan.co.za/news/2026-10-12-two-men-in-tsontso-case-granted-bail-third-held-in-custody/",
+     "outlet": "Sowetan",
+     "date": "2026-10-12",
+     "access": "read"
+    },
+    {
+     "key": "dm_1013",
+     "title": "Suspects in court, but search for Elizabeth 'Tsontso' Moselakgomo's killer continues",
+     "url": "https://www.dailymaverick.co.za/article/2026-10-12-ekurhuleni/",
+     "outlet": "Daily Maverick",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "national_1013",
+     "title": "Ekurhuleni case: Moselakgomo's smartwatch was sold within 24 hours after she went missing",
+     "url": "https://thenational.co.za/news/2026-10-13-ekurhuleni-case-moselakgomo-s-smartwatch-was-sold-within-24-hours-after-she-went-missing/",
+     "outlet": "The National",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "ewn_1013",
+     "title": "Authorities verifying immigration status of suspect in slain Moselakgomo smartwatch case",
+     "url": "https://www.ewn.co.za/authorities-verifying-immigration-status-of-suspect-in-slain-moselakgomo-smartwatch-case/",
+     "outlet": "EWN",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "sundayworld_1012",
+     "title": "Two accused in Tsontso case granted R10,000 bail, third accused remains behind bars",
+     "url": "https://sundayworld.co.za/news/two-accused-in-tsontso-case-granted-r10000-bail-nigerian-national-remains-behind-bars/",
+     "outlet": "Sunday World",
+     "date": "2026-10-12",
+     "access": "read"
+    }
+   ],
+   "note": "Allegations are the State's, from the charge sheet and NPA statement; they have not been tested in court.",
+   "partOfDay": "afternoon",
+   "media": [
+    "m-npa-smartwatch",
+    "m-dm-smartwatch"
    ],
    "caseId": "moselakgomo"
   },
@@ -2074,11 +2142,11 @@
    "id": "ntimba-bail2",
    "datetime": "2026-10-12",
    "precision": "day",
-   "title": "Scheduled: Ntimba case bail proceedings continue",
-   "description": "The two accused are due back in the Boksburg Magistrates' Court on 12 October for their bail proceedings to continue. As of the morning of 12 October, no outcome of this hearing had been reported in the sources checked for this update.",
+   "title": "Ntimba case: bail proceedings listed to continue; no outcome reported",
+   "description": "The two accused were due back in the Boksburg Magistrates' Court on 12 October for their bail proceedings to continue. No report describing that hearing was found. Daily Maverick reported on 13 October that both remain in custody, and SABC reported on 19 October that their bail applications were due to continue that day.",
    "lane": "ntimba",
    "category": "arrest-court",
-   "status": "scheduled",
+   "status": "media report",
    "location": "Boksburg Magistrates' Court",
    "sources": [
     {
@@ -2096,10 +2164,104 @@
      "outlet": "The Citizen",
      "date": "2026-10-01",
      "access": "snippet"
+    },
+    {
+     "key": "dm_1013",
+     "title": "Suspects in court, but search for Elizabeth 'Tsontso' Moselakgomo's killer continues",
+     "url": "https://www.dailymaverick.co.za/article/2026-10-12-ekurhuleni/",
+     "outlet": "Daily Maverick",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "sabc_1019",
+     "title": "Two women linked to Ntimba murder to continue bail applications",
+     "url": "https://www.sabcnews.com/sabcnews/two-women-linked-to-ntimba-murder-to-continue-bail-applications/",
+     "outlet": "SABC News",
+     "date": "2026-10-19",
+     "access": "read"
+    }
+   ],
+   "note": "Reported outcome of 12 Oct: none found. The 19 Oct continuation implies no bail decision was made on 12 Oct.",
+   "partOfDay": null,
+   "media": [
+    "m-dm-smartwatch"
+   ],
+   "caseId": "ntimba"
+  },
+  {
+   "id": "moselakgomo-court-1019",
+   "datetime": "2026-10-19",
+   "precision": "day",
+   "title": "Scheduled: bail application in the Moselakgomo smartwatch case",
+   "description": "The bail application of the accused who remained in custody was postponed to 19 October in the Kempton Park Magistrates' Court (NPA). The National and Daily Maverick report that the three men are due back in court that day. As of the morning of 19 October, no outcome had been reported.",
+   "lane": "moselakgomo",
+   "category": "arrest-court",
+   "status": "scheduled",
+   "location": "Kempton Park Magistrates' Court",
+   "sources": [
+    {
+     "key": "npa_1013",
+     "title": "Three accused appeared in court in connection with deceased woman's smartwatch (NPA media statement)",
+     "url": "https://www.npa.gov.za/media/three-accused-appeared-court-connection-deceased-womans-smartwatch",
+     "outlet": "National Prosecuting Authority (NPA)",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "national_1013",
+     "title": "Ekurhuleni case: Moselakgomo's smartwatch was sold within 24 hours after she went missing",
+     "url": "https://thenational.co.za/news/2026-10-13-ekurhuleni-case-moselakgomo-s-smartwatch-was-sold-within-24-hours-after-she-went-missing/",
+     "outlet": "The National",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "dm_1013",
+     "title": "Suspects in court, but search for Elizabeth 'Tsontso' Moselakgomo's killer continues",
+     "url": "https://www.dailymaverick.co.za/article/2026-10-12-ekurhuleni/",
+     "outlet": "Daily Maverick",
+     "date": "2026-10-13",
+     "access": "read"
+    },
+    {
+     "key": "sowetan_1012",
+     "title": "Two men in 'Tsontso' case granted bail, third held in custody",
+     "url": "https://www.sowetan.co.za/news/2026-10-12-two-men-in-tsontso-case-granted-bail-third-held-in-custody/",
+     "outlet": "Sowetan",
+     "date": "2026-10-12",
+     "access": "read"
     }
    ],
    "note": null,
    "partOfDay": null,
+   "media": [
+    "m-npa-smartwatch"
+   ],
+   "caseId": "moselakgomo"
+  },
+  {
+   "id": "ntimba-bail3",
+   "datetime": "2026-10-19",
+   "precision": "day",
+   "title": "Scheduled: Ntimba case bail applications continue",
+   "description": "SABC reported on the morning of 19 October that the two women were expected in the Boksburg Magistrates' Court that morning for the continuation of their bail applications, on charges of premeditated murder, possession of a dangerous weapon, and defeating or obstructing the course of justice. As of the morning of 19 October, no outcome had been reported. They are presumed innocent and are not named here.",
+   "lane": "ntimba",
+   "category": "arrest-court",
+   "status": "scheduled",
+   "location": "Boksburg Magistrates' Court",
+   "sources": [
+    {
+     "key": "sabc_1019",
+     "title": "Two women linked to Ntimba murder to continue bail applications",
+     "url": "https://www.sabcnews.com/sabcnews/two-women-linked-to-ntimba-murder-to-continue-bail-applications/",
+     "outlet": "SABC News",
+     "date": "2026-10-19",
+     "access": "read"
+    }
+   ],
+   "note": null,
+   "partOfDay": "morning",
    "media": [],
    "caseId": "ntimba"
   },
@@ -2108,7 +2270,7 @@
    "datetime": "2026-10-19",
    "precision": "day",
    "title": "Scheduled: formal bail application in the Nxumalo case",
-   "description": "The formal bail application is scheduled for 19 October in the Tembisa Magistrates' Court. The State has said it will oppose bail. This date was scheduled as of the latest reports; the outcome is not known here.",
+   "description": "The formal bail application is scheduled for 19 October in the Tembisa Magistrates' Court. The State has said it will oppose bail. Daily Maverick (13 October) reported he remains in custody until this appearance. As of the morning of 19 October, no outcome had been reported.",
    "lane": "nxumalo",
    "category": "arrest-court",
    "status": "scheduled",
@@ -2137,11 +2299,21 @@
      "outlet": "Jacaranda FM",
      "date": "2026-10-06",
      "access": "snippet"
+    },
+    {
+     "key": "dm_1013",
+     "title": "Suspects in court, but search for Elizabeth 'Tsontso' Moselakgomo's killer continues",
+     "url": "https://www.dailymaverick.co.za/article/2026-10-12-ekurhuleni/",
+     "outlet": "Daily Maverick",
+     "date": "2026-10-13",
+     "access": "read"
     }
    ],
    "note": null,
    "partOfDay": null,
-   "media": [],
+   "media": [
+    "m-dm-smartwatch"
+   ],
    "caseId": "nxumalo"
   },
   {

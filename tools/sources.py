@@ -48,6 +48,13 @@ S = {
  "ewn_1006": ("State to oppose bail for man accused of killing Tembisa woman, leaving body in cemetery", "https://www.ewn.co.za/2026/10/06/state-to-oppose-bail-for-man-accused-of-killing-tembisa-woman-leaving-body-in-cemetery", "EWN", "2026-10-06", "read"),
  "citizen_1006": ("'Only person who has rights here is the killer': Ntombifuthi Nxumalo family 'hurt' over possible bail", "https://www.citizen.co.za/news/south-africa/courts/ntombifuthi-nxumalo-murder-case-bail/", "The Citizen", "2026-10-06", "read"),
  "jac_1006": ("Bail application delayed for alleged Mooifontein Cemetery murderer", "https://www.jacarandafm.com/news/news/bail-delayed-alleged-mooifontein-cemetery-murderer/", "Jacaranda FM", "2026-10-06", "snippet"),
+ "npa_1013": ("Three accused appeared in court in connection with deceased woman's smartwatch (NPA media statement)", "https://www.npa.gov.za/media/three-accused-appeared-court-connection-deceased-womans-smartwatch", "National Prosecuting Authority (NPA)", "2026-10-13", "read"),
+ "sowetan_1012": ("Two men in 'Tsontso' case granted bail, third held in custody", "https://www.sowetan.co.za/news/2026-10-12-two-men-in-tsontso-case-granted-bail-third-held-in-custody/", "Sowetan", "2026-10-12", "read"),
+ "sundayworld_1012": ("Two accused in Tsontso case granted R10,000 bail, third accused remains behind bars", "https://sundayworld.co.za/news/two-accused-in-tsontso-case-granted-r10000-bail-nigerian-national-remains-behind-bars/", "Sunday World", "2026-10-12", "read"),
+ "dm_1013": ("Suspects in court, but search for Elizabeth 'Tsontso' Moselakgomo's killer continues", "https://www.dailymaverick.co.za/article/2026-10-12-ekurhuleni/", "Daily Maverick", "2026-10-13", "read"),
+ "national_1013": ("Ekurhuleni case: Moselakgomo's smartwatch was sold within 24 hours after she went missing", "https://thenational.co.za/news/2026-10-13-ekurhuleni-case-moselakgomo-s-smartwatch-was-sold-within-24-hours-after-she-went-missing/", "The National", "2026-10-13", "read"),
+ "ewn_1013": ("Authorities verifying immigration status of suspect in slain Moselakgomo smartwatch case", "https://www.ewn.co.za/authorities-verifying-immigration-status-of-suspect-in-slain-moselakgomo-smartwatch-case/", "EWN", "2026-10-13", "read"),
+ "sabc_1019": ("Two women linked to Ntimba murder to continue bail applications", "https://www.sabcnews.com/sabcnews/two-women-linked-to-ntimba-murder-to-continue-bail-applications/", "SABC News", "2026-10-19", "read"),
  "geob": ("geoBoundaries gbOpen ZAF ADM2 (South Africa districts/metros), simplified GeoJSON", "https://www.geoboundaries.org/api/current/gbOpen/ZAF/ADM2/", "geoBoundaries (OCHA ROSEA / Municipal Demarcation Board)", "2020 boundaries, accessed 2026-09-30", "read"),
 }
 

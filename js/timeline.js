@@ -13,7 +13,7 @@ const STATUS = [
 ];
 const STATUS_COLOR = {}; STATUS.forEach(s => STATUS_COLOR[s.key] = s.color);
 const CATS = Object.keys(C.CAT_LABEL);
-const GROUPS = [{ key: 'taskteam', name: 'Task team, no arrest', color: GC.taskteam }, { key: 'arrest', name: 'Arrest made', color: GC.arrest }, { key: 'other', name: 'Other', color: GC.other }, { key: 'investigation', name: 'Investigation & officials', color: '#5fc2b5' }];
+const GROUPS = [{ key: 'taskteam', name: 'Task team, no murder arrest', color: GC.taskteam }, { key: 'arrest', name: 'Murder arrest made', color: GC.arrest }, { key: 'other', name: 'Other', color: GC.other }, { key: 'investigation', name: 'Investigation & officials', color: '#5fc2b5' }];
 const U = (y, m, d, h) => new Date(Date.UTC(y, m - 1, d || 1, h || 0));
 const PRESETS = { all: [U(2026, 7, 1), U(2026, 10, 15)], sept: [U(2026, 9, 1), U(2026, 10, 2)], last10: [U(2026, 9, 25), U(2026, 10, 14)], wide: [U(2026, 3, 1), U(2026, 10, 15)] };
 const F = { cats: new Set(CATS), status: new Set(STATUS.map(s => s.key)), groups: new Set(GROUPS.map(g => g.key)), q: '' };
@@ -131,9 +131,9 @@ function draw(){
   gAxis.attr('transform', 'translate(0,' + (M.top - 30) + ')').call(d3.axisTop(zx).ticks(ticks).tickSizeOuter(0));
   gGrid.attr('transform', 'translate(0,' + M.top + ')').call(d3.axisBottom(zx).ticks(ticks).tickSize(height - M.top).tickFormat('')).call(g => g.select('.domain').remove());
   // "as of" line
-  const asOf = U(2026, 10, 5, 9);
+  const asOf = U(2026, 10, 19, 7);
   gToday.selectAll('line').data([asOf]).join('line').attr('x1', d => zx(d)).attr('x2', d => zx(d)).attr('y1', M.top - 26).attr('y2', height - M.bottom).attr('stroke', '#d9b36c').attr('stroke-dasharray', '3 4').attr('opacity', 0.6);
-  gToday.selectAll('text').data([asOf]).join('text').attr('x', d => zx(d) + 4).attr('y', height - 8).text('as of 5 Oct').attr('fill', '#a38a55').style('font-size', '10px');
+  gToday.selectAll('text').data([asOf]).join('text').attr('x', d => zx(d) + 4).attr('y', height - 8).text('as of 19 Oct').attr('fill', '#a38a55').style('font-size', '10px');
   // gaps band: days between consecutive discoveries
   const iv = DATA.meta.intervals.map(x => ({ x, a: C.parseLocal(x.fromDate), b: C.parseLocal(x.toDate) }));
   const gy = M.top - 18;

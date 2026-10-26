@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-10-19",
-  "asOf": "2026-10-19",
+  "generated": "2026-10-26",
+  "asOf": "2026-10-26",
   "timezoneNote": "All times are South African Standard Time (SAST, UTC+2).",
-  "eventCount": 60,
+  "eventCount": 62,
   "caseCount": 13,
   "distance": {
    "center": "Kempton Park centre (approx. -26.096, 28.234)",
@@ -521,7 +521,7 @@
     "kmFromKemptonPark": 3.0
    },
    "circumstances": "A runner who did not return from her run; her eight-year-old daughter raised the alarm. Found badly bruised and partially clothed. Her family identified her at the Germiston mortuary on 14 September. She was buried in Mpumalanga around 19-20 September. Her disappearance drew wide public attention.",
-   "legal": "On the morning of 12 October, national police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Moselakgomo, and said no murder charge had been brought. That afternoon three men appeared in the Kempton Park Magistrates' Court over her Garmin smartwatch (NPA). They face charges of theft and money laundering, with alternative charges of possessing or receiving stolen property; one, who ran a second-hand goods shop in Kempton Park, also faces charges under the Second-Hand Goods Act. The State alleges the watch was bought for R900 from an unidentified person less than 24 hours after she was last seen, then sold on and advertised on social media. A fourth person who bought the watch was not charged because of insufficient evidence (NPA). Two of the men were granted bail of R10,000 each; the State did not oppose it (Sowetan). The third remains in custody: his bail application was postponed to 19 October and the court ordered that his immigration status be verified. None of the three is charged with her murder, and police say the murder investigation continues. The accused are presumed innocent and are not named here.",
+   "legal": "On the morning of 12 October, national police spokesperson Brigadier Athlenda Mathe confirmed that a suspect had been arrested after being found in possession of an item belonging to Moselakgomo, and said no murder charge had been brought. That afternoon three men appeared in the Kempton Park Magistrates' Court over her Garmin smartwatch (NPA). They face charges of theft and money laundering, with alternative charges of possessing or receiving stolen property; one, who ran a second-hand goods shop in Kempton Park, also faces charges under the Second-Hand Goods Act. The State alleges the watch was bought for R900 from an unidentified person less than 24 hours after she was last seen, then sold on and advertised on social media. A fourth person who bought the watch was not charged because of insufficient evidence (NPA). Two of the men were granted bail of R10,000 each; the State did not oppose it (Sowetan). The third remained in custody while his immigration status was verified. On 19 October the three appeared again: his case was separated from that of the other two, the State said it was still trying to obtain and verify his original immigration documents, and his formal bail application was postponed to 27 October; he remains in custody. The magistrate also asked that social services check on a child in his care (Mail & Guardian, Kempton Express, Sowetan). The other two remain on bail on the same conditions and return to court on 9 December for further investigation. None of the three is charged with her murder, and police say the murder investigation continues. The accused are presumed innocent and are not named here.",
    "court": [
     {
      "date": "2026-10-12",
@@ -530,7 +530,17 @@
     },
     {
      "date": "2026-10-19",
-     "text": "Bail application of the third accused (smartwatch case), Kempton Park Magistrates' Court",
+     "text": "Second appearance (smartwatch case): first accused's case separated; his formal bail application postponed to 27 October while immigration documents are verified (remains in custody); the other two stay on bail",
+     "scheduled": false
+    },
+    {
+     "date": "2026-10-27",
+     "text": "Formal bail application of the accused still in custody (smartwatch case), Kempton Park Magistrates' Court",
+     "scheduled": true
+    },
+    {
+     "date": "2026-12-09",
+     "text": "The two accused on bail return for further investigation (smartwatch case), Kempton Park Magistrates' Court",
      "scheduled": true
     }
    ],
@@ -675,6 +685,30 @@
      "outlet": "Sunday World",
      "date": "2026-10-12",
      "access": "read"
+    },
+    {
+     "key": "mg_1019",
+     "title": "Two granted bail in case involving slain runner's smartwatch",
+     "url": "https://mg.co.za/news/south-africa/2026-10-19-two-granted-bail-in-case-involving-slain-runner-s-smartwatch/",
+     "outlet": "Mail & Guardian",
+     "date": "2026-10-19",
+     "access": "read"
+    },
+    {
+     "key": "kempton_1020",
+     "title": "Elizabeth Moselakgomo smartwatch case postponed to October 27",
+     "url": "https://www.citizen.co.za/kempton-express/news-headlines/local-crime-news/2026/10/20/elizabeth-moselakgomo-smartwatch-case-postponed-to-october-27/",
+     "outlet": "Kempton Express (The Citizen)",
+     "date": "2026-10-20",
+     "access": "read"
+    },
+    {
+     "key": "sowetan_1019",
+     "title": "'Tsontso' case: Five things that came out of court on Monday",
+     "url": "https://www.sowetan.co.za/news/2026-10-19-tsontso-case-five-things-that-came-out-of-court-on-monday/",
+     "outlet": "Sowetan",
+     "date": "2026-10-19",
+     "access": "read"
     }
    ],
    "lastSeenToFound": {
@@ -687,7 +721,8 @@
     "moselakgomo-burial",
     "moselakgomo-arrest",
     "moselakgomo-court",
-    "moselakgomo-court-1019"
+    "moselakgomo-court-1019",
+    "moselakgomo-court-1027"
    ]
   },
   {
@@ -860,7 +895,7 @@
    "id": "ntimba",
    "num": 9,
    "name": "Jabulile Ntimba",
-   "age": "about 30",
+   "age": "33",
    "group": "arrest",
    "linkStatus": "Arrest made: two women charged. Police cite a possible relationship ('love triangle') motive and have not linked this case to the others.",
    "statusShort": "arrest made - two women charged (separate motive per police)",
@@ -876,7 +911,7 @@
     "kmFromKemptonPark": 26.0
    },
    "circumstances": "Found partially clothed with a fatal throat injury (as reported).",
-   "legal": "Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody. Their bail proceedings began on 1 October, when the first accused alleged in an affidavit that police had tortured her into confessing and said she did not kill Ntimba. The court has not tested these allegations. The matter was postponed to 12 October. No report describing the 12 October hearing was found; Daily Maverick reported on 13 October that both remain in custody, and SABC reported on 19 October that the two accused were expected back in the Boksburg Magistrates' Court that morning for the continuation of their bail applications. SABC lists the charges as premeditated murder, possession of a dangerous weapon, and defeating or obstructing the course of justice. As of the morning of 19 October, no outcome had been reported. They are presumed innocent and are not named on this site.",
+   "legal": "Three people were arrested over the weekend of 19-20 September by the Gauteng Murder and Robbery Unit. A man was released: prosecutors declined to enrol charges, though police said he remains under investigation. Two women were charged with premeditated murder and defeating the ends of justice. They appeared in the Boksburg Magistrates' Court on 21 September and were remanded in custody. Their bail proceedings began on 1 October, when the first accused alleged in an affidavit that police had tortured her into confessing and said she did not kill Ntimba. The court has not tested these allegations. The matter was postponed to 12 October. No report describing the 12 October hearing was found; Daily Maverick reported on 13 October that both remain in custody, and SABC reported on 19 October that the two accused were expected back in the Boksburg Magistrates' Court that morning for the continuation of their bail applications. SABC lists the charges as premeditated murder, possession of a dangerous weapon, and defeating or obstructing the course of justice. On 19 October the defence continued cross-examining the investigating officer, and the matter was postponed to 23 October (SABC, Jacaranda FM). According to the Boksburg Advertiser, the officer testified that bloodstains were found in a vehicle linked to the case and that tests to establish where the blood came from are still pending, that the weapon has not been recovered and the post-mortem indicates two weapons were used, and that investigators are examining a funeral policy in Ntimba's name on which the two accused are allegedly listed as beneficiaries (her family disputes the relationships recorded on it, and the policy account has been frozen). The defence argued there is no eyewitness and challenged the alleged confession and admission. None of this has been tested at trial. eNCA reported that the bail hearing continued on 23 October, with the State opposing bail. As of 26 October, no report of a bail decision was found, and both were last reported in custody. They are presumed innocent and are not named on this site.",
    "court": [
     {
      "date": "2026-09-21",
@@ -895,12 +930,17 @@
     },
     {
      "date": "2026-10-19",
-     "text": "Bail applications continue, Boksburg Magistrates' Court",
-     "scheduled": true
+     "text": "Bail applications continue (cross-examination of the investigating officer); postponed to 23 October, both remain in custody",
+     "scheduled": false
+    },
+    {
+     "date": "2026-10-23",
+     "text": "Bail hearing continues, Boksburg Magistrates' Court (State opposes bail); no report of the outcome found as of 26 October",
+     "scheduled": false
     }
    ],
    "conflicts": [
-    "Age: 'about 30' in earlier reports; Daily Maverick (13 Oct) gives 33.",
+    "Age: 'about 30' in earlier reports; Daily Maverick (13 Oct), SABC (20 Oct) and the Boksburg Advertiser (21 Oct) give 33.",
     "Charges: earlier reports list premeditated murder and defeating the ends of justice; SABC (19 Oct) also lists possession of a dangerous weapon.",
     "eNCA spells her surname 'Timba'. The suburb is spelled both 'Villa Liza' and 'Villa Lisa'. BBC (26 Sept) says 'three men appeared in court' in one of the earlier cases, which does not match other reports (two women charged, one man released)."
    ],
@@ -984,6 +1024,38 @@
      "outlet": "SABC News",
      "date": "2026-10-19",
      "access": "read"
+    },
+    {
+     "key": "sabc_1020",
+     "title": "Bail hearing postponed to Friday in Jabulile Ntimba murder case",
+     "url": "https://www.sabcnews.com/sabcnews/bail-hearing-postponed-to-friday-in-jabulile-ntimba-murder-case/",
+     "outlet": "SABC News",
+     "date": "2026-10-20",
+     "access": "read"
+    },
+    {
+     "key": "jac_1020",
+     "title": "Accused in alleged deadly Dawn Park love triangle back in court on Friday",
+     "url": "https://www.jacarandafm.com/news/news/love-triangle-murder-accused-back-in-court-friday/",
+     "outlet": "Jacaranda FM",
+     "date": "2026-10-20",
+     "access": "read"
+    },
+    {
+     "key": "boksburg_1021",
+     "title": "Jabulile Ntimba murder: Two accused were named as beneficiaries of policy",
+     "url": "https://www.citizen.co.za/boksburg-advertiser/news-headlines/2026/10/21/jabulile-ntimba-murder-two-accused-were-named-as-beneficiaries-of-policy/",
+     "outlet": "Boksburg Advertiser (The Citizen)",
+     "date": "2026-10-21",
+     "access": "read"
+    },
+    {
+     "key": "enca_1023",
+     "title": "Jabulile Ntimba murder: Suspects back in dock",
+     "url": "https://www.enca.com/news-top-stories/jabulile-ntimba-murder-suspects-back-dock",
+     "outlet": "eNCA",
+     "date": "2026-10-23",
+     "access": "read"
     }
    ],
    "events": [
@@ -992,7 +1064,8 @@
     "ntimba-court",
     "ntimba-bail",
     "ntimba-bail2",
-    "ntimba-bail3"
+    "ntimba-bail3",
+    "ntimba-bail4"
    ]
   },
   {
@@ -1022,7 +1095,7 @@
     "kmFromKemptonPark": 8.0
    },
    "circumstances": "Found with serious head injuries; stones were found nearby and the Gauteng commissioner said she may have been stoned (as reported). Residents reported hearing screams at about 23:00 on Friday. Her friend identified her by her clothes. She leaves five children; her family planned a burial in Nongoma, KwaZulu-Natal. Age reported as 49 (EWN, The Citizen).",
-   "legal": "A 36-year-old man was traced to a village in Limpopo and arrested (in Tzaneen / Mohlabaneng Village, according to reports). He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. On 6 October the formal bail application did not proceed: the defence asked for more time to consult, and the matter was postponed to 19 October. The State said it was ready to proceed and will oppose bail. He remains in custody (Daily Maverick, 13 October, also reports he remains in custody until the 19 October appearance). As of the morning of 19 October, no outcome had been reported. He is presumed innocent and is not named on this site.",
+   "legal": "A 36-year-old man was traced to a village in Limpopo and arrested (in Tzaneen / Mohlabaneng Village, according to reports). He appeared in the Tembisa Magistrates' Court on 29 September, charged with murder. On 6 October the formal bail application did not proceed: the defence asked for more time to consult, and the matter was postponed to 19 October. The State said it was ready to proceed and will oppose bail. He remains in custody (Daily Maverick, 13 October, also reports he remains in custody until the 19 October appearance). As of 26 October, no report describing the 19 October hearing or its outcome was found. He is presumed innocent and is not named on this site.",
    "court": [
     {
      "date": "2026-09-29",
@@ -1036,8 +1109,8 @@
     },
     {
      "date": "2026-10-19",
-     "text": "Formal bail application, Tembisa Magistrates' Court (State to oppose)",
-     "scheduled": true
+     "text": "Formal bail application listed, Tembisa Magistrates' Court (State to oppose); no report of this hearing or its outcome found as of 26 October",
+     "scheduled": false
     }
    ],
    "conflicts": [

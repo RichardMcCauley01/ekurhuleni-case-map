@@ -55,6 +55,13 @@ S = {
  "national_1013": ("Ekurhuleni case: Moselakgomo's smartwatch was sold within 24 hours after she went missing", "https://thenational.co.za/news/2026-10-13-ekurhuleni-case-moselakgomo-s-smartwatch-was-sold-within-24-hours-after-she-went-missing/", "The National", "2026-10-13", "read"),
  "ewn_1013": ("Authorities verifying immigration status of suspect in slain Moselakgomo smartwatch case", "https://www.ewn.co.za/authorities-verifying-immigration-status-of-suspect-in-slain-moselakgomo-smartwatch-case/", "EWN", "2026-10-13", "read"),
  "sabc_1019": ("Two women linked to Ntimba murder to continue bail applications", "https://www.sabcnews.com/sabcnews/two-women-linked-to-ntimba-murder-to-continue-bail-applications/", "SABC News", "2026-10-19", "read"),
+ "sabc_1020": ("Bail hearing postponed to Friday in Jabulile Ntimba murder case", "https://www.sabcnews.com/sabcnews/bail-hearing-postponed-to-friday-in-jabulile-ntimba-murder-case/", "SABC News", "2026-10-20", "read"),
+ "jac_1020": ("Accused in alleged deadly Dawn Park love triangle back in court on Friday", "https://www.jacarandafm.com/news/news/love-triangle-murder-accused-back-in-court-friday/", "Jacaranda FM", "2026-10-20", "read"),
+ "boksburg_1021": ("Jabulile Ntimba murder: Two accused were named as beneficiaries of policy", "https://www.citizen.co.za/boksburg-advertiser/news-headlines/2026/10/21/jabulile-ntimba-murder-two-accused-were-named-as-beneficiaries-of-policy/", "Boksburg Advertiser (The Citizen)", "2026-10-21", "read"),
+ "enca_1023": ("Jabulile Ntimba murder: Suspects back in dock", "https://www.enca.com/news-top-stories/jabulile-ntimba-murder-suspects-back-dock", "eNCA", "2026-10-23", "read"),
+ "kempton_1020": ("Elizabeth Moselakgomo smartwatch case postponed to October 27", "https://www.citizen.co.za/kempton-express/news-headlines/local-crime-news/2026/10/20/elizabeth-moselakgomo-smartwatch-case-postponed-to-october-27/", "Kempton Express (The Citizen)", "2026-10-20", "read"),
+ "mg_1019": ("Two granted bail in case involving slain runner's smartwatch", "https://mg.co.za/news/south-africa/2026-10-19-two-granted-bail-in-case-involving-slain-runner-s-smartwatch/", "Mail & Guardian", "2026-10-19", "read"),
+ "sowetan_1019": ("'Tsontso' case: Five things that came out of court on Monday", "https://www.sowetan.co.za/news/2026-10-19-tsontso-case-five-things-that-came-out-of-court-on-monday/", "Sowetan", "2026-10-19", "read"),
  "geob": ("geoBoundaries gbOpen ZAF ADM2 (South Africa districts/metros), simplified GeoJSON", "https://www.geoboundaries.org/api/current/gbOpen/ZAF/ADM2/", "geoBoundaries (OCHA ROSEA / Municipal Demarcation Board)", "2020 boundaries, accessed 2026-09-30", "read"),
 }
 
